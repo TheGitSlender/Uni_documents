@@ -19,7 +19,7 @@
 <label>Email <font color="red"><sup><b>*</b></sup></font>: </label><input type="text" size="20" required placeholder="Saisir Email valide">
             </pre>
         </form>
-
+<!-- Naissance -->
         <fieldset>
             <legend style="color:blue">
                 Naissance :
@@ -36,10 +36,11 @@
             <option value="Rabat">Rabat</option>
             <option value="Ifrane">Ifrane</option>
             <option value="Autre">Autre</option>
-        </select> (Doit contenir une option 'Autre')
+        </select> (doit contenir une option 'Autre')
             </form>
         </fieldset>
 <br>
+<!-- Coordonnées -->
         <fieldset>
             <legend style="color:red">
                 Coordonnées :
@@ -56,7 +57,7 @@
     <option value="Rabat">Rabat</option>
     <option value="Ifrane">Ifrane</option>
     <option value="Autre">Autre</option>
-</select> (Doit contenir une option 'Autre')
+</select> (doit contenir une option 'Autre')
 
 <label>Code Postal: </label><input type="tel" pattern="[0-9]{5}" placeholder="5 chiffres Max">
 </pre>
@@ -64,22 +65,27 @@
 </form>
         </fieldset>
 <br>
-        <fieldset>
+<!-- Centre d'interet -->
+        <fieldset> 
             <legend style="color:green">
                 Centre d'interet : (cocher au moins 2 choix)
             </legend>
-            <p>
-            <input type="checkbox" name="c1" > Science 
-            <input type="checkbox" name="c2" > Littérature
-            <input type="checkbox" name="c3"> Théatre
-        </p>
-        <p>
-            <input type="checkbox" name="c1" > Cuisine 
-            <input type="checkbox" name="c2" > Histoire
-            <input type="checkbox" name="c3"> Sport
-        </p><br>
-        </fieldset>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="c1" > Science </td>
+                    <td><input type="checkbox" name="c2" > Littérature</td>
+                    <td><input type="checkbox" name="c3"> Théatre</td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="c1" > Cuisine </td>
+                    <td> <input type="checkbox" name="c2" > Histoire</td>
+                    <td> <input type="checkbox" name="c3"> Sport</td>
+                </tr>
+            </table>
+            
 
+        </fieldset>
+<!-- Tableaux en HTML -->
         <fieldset>
             <legend style="color:red">
                 Tableaux en HTML :
@@ -99,9 +105,9 @@
                     <td bgcolor="blue">Vville 1</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" bgcolor="yellow">Ben Abdellah</td>
+                    <td rowspan="2" bgcolor="yellow" style="vertical-align: top; text-align: right;">Ben Abdellah</td>
                     <td style="text-align:left" bgcolor="green">Zakaria</td>
-                    <td colspan="2" rowspan="2" bgcolor="white">meme adresse pour</td>
+                    <td colspan="2" rowspan="2" bgcolor="white" style="vertical-align: bottom; text-align: right;">meme adresse pour</td>
                 </tr>
                 <tr>
                     <td style="text-align:right;">Zakia</td>
@@ -111,14 +117,17 @@
                     <td>Bahae Eddine</td>
                     <td colspan="2" bgcolor="red"> <font color="white">Aucune valeur Saisie</font></td>
                 </tr>
-            </table>
-            <table>
-                <tr>
-                    <td style="text-align: center;">Liste des coordonnées</td></tr>
+                <caption align="bottom">Liste des coordonnées</caption>
             </table>
         </fieldset>
+        <br>
+    <font color="red"><sup><b>*</b></sup></font> <u><b>Champs Obligatoires</b></u>
 
-    
+    <br><br><br>
+    <form align="center">
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Réinitialiser">
+    </form>
     </fieldset>
 </body>
 </html>
