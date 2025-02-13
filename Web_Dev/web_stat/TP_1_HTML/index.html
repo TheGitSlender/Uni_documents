@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 1 Web Statique</title>
+</head>
+<body>
+    <fieldset>
+        <legend style="color:blue"> 
+            Informations Persennelles :
+        </legend>
+        <form>
+            <pre>
+<label>Nom(s) <font color="red"><sup><b>*</b></sup></font>: </label><input type="text" size="20" required placeholder="Saisir Nom">
+
+<label>Prénom(s) <font color="red"><sup><b>*</b></sup></font>: </label><input type="text" size="20" required placeholder="Saisir PréNom">
+
+<label>Email <font color="red"><sup><b>*</b></sup></font>: </label><input type="text" size="20" required placeholder="Saisir Email valide">
+            </pre>
+        </form>
+
+        <fieldset>
+            <legend style="color:blue">
+                Naissance :
+            </legend>
+            <form>
+                <pre>
+<label>Date <font color="red"><sup><b>*</b></sup></font>: </label><input type="date" required>
+</pre>
+        <label>Ville <font color="red"><sup><b>*</b></sup></font>: </label>
+        <select name="Ville" required>
+            <option value=""></option>
+            <option value="Casablanca">Casablanca</option>
+            <option value="Agadir">Agadir</option>
+            <option value="Rabat">Rabat</option>
+            <option value="Ifrane">Ifrane</option>
+            <option value="Autre">Autre</option>
+        </select> (Doit contenir une option 'Autre')
+            </form>
+        </fieldset>
+<br>
+        <fieldset>
+            <legend style="color:red">
+                Coordonnées :
+            </legend>
+            <form><pre>
+<label>Téléphone <font color="red"><sup><b>*</b></sup></font>: </label><input type="tel" pattern="[0-9]{10}" required placeholder="10 chiffres">
+
+<label>Adresse <font color="red"><sup><b>*</b></sup></font>: </label> <textarea required cols="30"></textarea>
+
+<label>Ville <font color="red"><sup><b>*</b></sup></font>: </label><select name="Ville" required>
+    <option value=""></option>
+    <option value="Casablanca">Casablanca</option>
+    <option value="Agadir">Agadir</option>
+    <option value="Rabat">Rabat</option>
+    <option value="Ifrane">Ifrane</option>
+    <option value="Autre">Autre</option>
+</select> (Doit contenir une option 'Autre')
+
+<label>Code Postal: </label><input type="tel" pattern="[0-9]{5}" placeholder="5 chiffres Max">
+</pre>
+
+</form>
+        </fieldset>
+<br>
+        <fieldset>
+            <legend style="color:green">
+                Centre d'interet : (cocher au moins 2 choix)
+            </legend>
+            <p>
+            <input type="checkbox" name="c1" > Science 
+            <input type="checkbox" name="c2" > Littérature
+            <input type="checkbox" name="c3"> Théatre
+        </p>
+        <p>
+            <input type="checkbox" name="c1" > Cuisine 
+            <input type="checkbox" name="c2" > Histoire
+            <input type="checkbox" name="c3"> Sport
+        </p><br>
+        </fieldset>
+
+        <fieldset>
+            <legend style="color:red">
+                Tableaux en HTML :
+            </legend>    
+            Le tableau suivant doint contenir un espacement de 5 pour le spacing et de 7 pour le padding et une bordure d'epaisseur de bordure de 3 :
+            <br>
+            <br>
+            <table border="3" cellspacing="5" cellpadding="7" bgcolor="orange" bordercolor="red">
+                <tr>
+                    <th colspan="3">champ1 - champ2 - champ3</th>
+                    <th>champ4</th>
+                </tr>
+                <tr>
+                    <td bgcolor="blue">Ben Abderrahmane</td>
+                    <td bgcolor="yellow">Mohammed Reda</td>
+                    <td bgcolor="blue">VAdr 1</td>
+                    <td bgcolor="blue">Vville 1</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" bgcolor="yellow">Ben Abdellah</td>
+                    <td style="text-align:left" bgcolor="green">Zakaria</td>
+                    <td colspan="2" rowspan="2" bgcolor="white">meme adresse pour</td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">Zakia</td>
+                </tr>
+                <tr>
+                    <td>Ben Elmoundiri</td>
+                    <td>Bahae Eddine</td>
+                    <td colspan="2" bgcolor="red"> <font color="white">Aucune valeur Saisie</font></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="text-align: center;">Liste des coordonnées</td></tr>
+            </table>
+        </fieldset>
+
+    
+    </fieldset>
+</body>
+</html>
