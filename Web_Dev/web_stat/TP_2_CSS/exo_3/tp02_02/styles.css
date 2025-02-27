@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+table {
+    border-style: solid;
+    border-color: blue;
+    width:100%;
+    caption-side:bottom;   
+}
+th {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+tr {
+    background-color: lightgreen;
+    text-align: left;
+}
+caption {
+    text-align: left;
+    color: #060 ;
+}
+td:empty {
+    background-color: white;
+}
+

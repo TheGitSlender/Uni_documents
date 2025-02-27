@@ -1,0 +1,44 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+html {
+    font-family: Verdana;
+}
+
+a:link {
+   color : lightgreen;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: orange;
+}
+.img-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    border-radius: 50%/35%;
+}
+.names {
+    font-size: xx-large;
+    font-weight: 1000;
+    letter-spacing: 0.001cm;
+}
+.section {
+    border-style:ridge;
+}
+
+.emph {
+    color: orange;
+    font-style: italic;
+}
+.separation {
+    column-count: 2;
+}
+.bolden {
+    font-weight: bold;
+}
