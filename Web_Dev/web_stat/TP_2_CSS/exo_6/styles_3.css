@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    height: 100vh;
+    }
+    .header {
+        position: absolute;
+        left:10% ;
+        height: 30%;
+        background-color: #6666ff;
+        width:50%;
+    }
+    
+    .content {
+        position: absolute;
+        right:10%;
+        top:20%;
+        height: 30%;
+        width:50%;
+        background-color: #339966;
+    }
+    
+    .sidebar {
+        position: absolute;
+        left:10%;
+        top:40%;
+        height: 30%;
+        width:50%;
+        background-color: #99ff99;
+    
+    }
+    
+    .footer {
+        position: absolute;
+        right:10%;
+        top:60%;
+        height: 30%;
+        width:50%;
+        background-color: #ffeecc;
+    }
