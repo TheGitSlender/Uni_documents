@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 - Configurable Div</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Configurable Div (Calque)</h1>
+    
+    <div id="container">
+        <div id="controlPanel">
+            <h2>Paramètres</h2>
+            
+            <div class="form-group">
+                <label for="divColor">Couleur du calque:</label><br>
+                <input type="color" id="divColor" value="#f0f0f0">
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label>Position du calque:</label><br>
+                
+                <div>
+                    <input type="radio" id="posRelative" name="positionType" value="relative" checked>
+                    <label for="posRelative">Position relative (par défaut)</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="posAbsolute" name="positionType" value="absolute">
+                    <label for="posAbsolute">Position absolue</label>
+                    
+                    <div id="absoluteInputs" style="display: none; margin-left: 20px;">
+                        <div>
+                            <input type="radio" id="posPixels" name="positionUnit" value="px" checked>
+                            <label for="posPixels">Pixels</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="posPercent" name="positionUnit" value="%">
+                            <label for="posPercent">Pourcentage</label>
+                        </div>
+                        
+                        <div>
+                            <label for="topPos">Top:</label><br>
+                            <input type="number" id="topPos" value="0">
+                        </div>
+                        
+                        <div>
+                            <label for="leftPos">Left:</label><br>
+                            <input type="number" id="leftPos" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label for="divWidth">Largeur du calque (px):</label><br>
+                <input type="number" id="divWidth" value="200">
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label for="divHeight">Hauteur du calque (px):</label><br>
+                <input type="number" id="divHeight" value="100">
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label for="divText">Texte contenu dans le calque:</label><br>
+                <textarea id="divText" rows="4" cols="30">Ceci est un calque configurable.</textarea>
+            </div>
+            <br>
+            
+            <div class="form-group">
+                <label for="divOpacity">Degré de transparence (0-100):</label><br>
+                <input type="range" id="divOpacity" min="0" max="100" value="100">
+                <span id="opacityValue">100%</span>
+            </div>
+            <br>
+            
+            <div class="button-group">
+                <button id="applyButton">Appliquer</button>
+                <button id="resetButton">Réinitialiser</button>
+            </div>
+        </div>
+        
+        <div id="previewArea">
+            <h2>Aperçu</h2>
+            <div id="customDiv">Ceci est un calque configurable.</div>
+        </div>
+    </div>
+</body>
+</html>
