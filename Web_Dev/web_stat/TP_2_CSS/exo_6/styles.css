@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+.header {
+    background-color: #6666ff;
+    height: 20vh;
+    width:50%;
+}
+
+.content {
+    top: 5%;
+    left: 15%;
+    height: 20vh;
+    width:50%;
+    background-color: #339966;
+}
+
+.sidebar {
+    
+    height: 20vh;
+    width:50%;
+    background-color: #99ff99;
+
+}
+
+.footer {
+    height: 20vh;
+    width:50%;
+    background-color: #ffeecc;
+}
