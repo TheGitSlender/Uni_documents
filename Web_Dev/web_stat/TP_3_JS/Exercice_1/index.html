@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1 - Form Validation</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form id="userForm">
+        <div class="form-group">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="prenoms">Prénoms:</label>
+            <input type="text" id="prenoms" name="prenoms" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="dateNaissance">Date de naissance:</label>
+            <input type="date" id="dateNaissance" name="dateNaissance" required>
+            <div id="ageError" class="error">Vous devez avoir au moins 14 ans.</div>
+        </div>
+        
+        <div class="form-group">
+            <label for="hauteur">Hauteur:</label>
+            <input type="number" id="hauteur" name="hauteur" required>
+            <select id="uniteHauteur" name="uniteHauteur">
+                <option value="cm">Centimètre</option>
+                <option value="inch">Inch</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="motDePasse">Mot de passe:</label>
+            <input type="password" id="motDePasse" name="motDePasse" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="confirmationMotDePasse">Confirmation du mot de passe:</label>
+            <input type="password" id="confirmationMotDePasse" name="confirmationMotDePasse" required>
+            <div id="passwordError" class="error">Les mots de passe ne correspondent pas.</div>
+        </div>
+        
+        <button type="button" onclick="validerFormulaire()">Confirmer</button>
+    </form>
+</body>
+</html>
