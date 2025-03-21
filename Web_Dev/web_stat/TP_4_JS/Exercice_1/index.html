@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="width">La largeur de la fenêtre utilisée est: </p>
+    <p id="height">La hauteur de la fenêtre utilisée est: </p>
+    <script>
+        const width_text = document.getElementById("width");
+        const height_text = document.getElementById("height");
+        
+        window.onresize = function(){
+            width_text.textContent = "La largeur de la fenêtre utilisée est: " + window.innerWidth;
+            height_text.textContent = "La hauteur de la fenêtre utilisée est: " + window.innerHeight;
+        };
+    </script>
+</body>
+</html>

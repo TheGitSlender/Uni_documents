@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      overflow: hidden; 
+    }
+    #layer {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      word-break: break-word;
+    }
+    #controls {
+      margin-bottom: 20px;
+    }
+    input, select, button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Paramétrage du Calque Zig-Zag</h2>
+
+<div id="controls">
+  <label>Couleur : <input type="color" id="colorInput" value="#3498db"></label>
+  <label>Largeur (px) : <input type="number" id="widthInput" placeholder="ex: 150"></label>
+  <label>Hauteur (px) : <input type="number" id="heightInput" placeholder="ex: 100"></label>
+  <label>Texte : <input type="text" id="textInput" placeholder="Texte à afficher"></label>
+  <label>Transparence (0 à 1) : <input type="number" id="opacityInput" min="0" max="1" step="0.1" value="1"></label><br><br>
+  <button id="startButton">Lancer Animation</button>
+</div>
+
+<div id="layer">Calque</div>
+
+<script src="main.js"></script>
+</body>
+</html>

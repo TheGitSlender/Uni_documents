@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 2</title>
+  <style>
+    body.red {
+      background-color: red;
+      color: white;
+    }
+    #container {
+      text-align: center;
+      margin-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+    #timeDisplay {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+    #message {
+      margin: 20px 0;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Temps passé sur la page :</h1>
+    <div id="timeDisplay">0 sec</div>
+    <div id="message"></div>
+    <button id="boutonFermer">Fermer la page</button>
+  </div>
+
+  <script>
+    var tps = 0; 
+    var alert15Fired = false; 
+    var intervalId = setInterval(updateTime, 1000); 
+
+    document.getElementById("boutonFermer").addEventListener("click", function() {
+      window.close(); 
+    });
+
+    function updateTime() {
+      tps++; 
+
+      var displayText = "";
+      if (tps < 60) {
+        displayText = tps + " sec";
+      } else {
+        var minutes = Math.floor(tps / 60);
+        var secondes = tps % 60;
+        displayText = minutes + " min " + secondes + " sec";
+      }
+      document.getElementById("timeDisplay").textContent = displayText;
+
+      if (tps > 15 && !alert15Fired) {
+        alert("Vous êtes sur la page depuis plus de 15 secondes !");
+        alert15Fired = true;
+      }
+
+      if (tps > 30) {
+        document.body.classList.add("red");
+      }
+
+      if (tps === 45) {
+        alert("La page se fermera dans 20 secondes.");
+      }
+
+      if (tps === 67) {
+        if (confirm("La page va se fermer.")) {
+          window.close();
+        } else {
+          tps = 0;
+        }
+      }
+    }
+  </script>
+</body>
+</html>

@@ -3,13 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
         <title>Exercice 0</title>
     </head>
     <body>
         <fieldset title="first">
             <legend >
-                Number waaaan
+                First Question
             </legend>
             <select name="" id="first">
                 <option disabled selected value="default"> -- select city --</option>
@@ -20,7 +19,7 @@
                 <option value="Agadir">Agadir</option>
                 <option value="autre">Autre</option>
             </select>
-            <div id="color_box"></div>
+            <div id="color_box" style="width: 50px; height: 50px; background-color: transparent; margin: 10px; border: 1px solid black;"></div>
             <div id="newfield">
                 <label for="new_city">Nom de la ville: </label>
                 <input type="text" id="new_city" placeholder="Entre la ville">
@@ -28,6 +27,29 @@
                 <input type="color" id="color_picker">
                 <button id="add_city">Ajouter la ville</button>
             </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Second Question
+            </legend>
+            <div id="color_box1" style="width: 50px;height: 50px;background-color: red;margin: 10px;border: 1px solid black;float: left;"></div>
+            <div id="color_box2" style="width: 50px;height: 50px;background-color: blue;margin: 10px;border: 1px solid black;float: left;"></div>
+            <div id="color_box3" style="width: 50px;height: 50px;background-color: orange;margin: 10px;border: 1px solid black;float: left;"></div>
+            <div id="color_box4" style="width: 50px;height: 50px;background-color: yellow;margin: 10px;border: 1px solid black;float: left;"></div>
+            <div id="color_box5" style="width: 50px;height: 50px;background-color: green;margin: 10px;border: 1px solid black;float: left;"></div>
+            <div id="color_box_A"></div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Third Question
+            </legend>
+            <input type="text" id="text_area" placeholder="Enter your text here" style="float: left">
+            <div id="copy" style="width: 20px;height: 20px;background-color: red;margin: 0px 10px;border: 1px solid black;float: left;"></div>
+            <div id="cut" style="width: 20px;height: 20px;background-color: blue;margin: 0px 0px;border: 1px solid black;float: left;"></div>
+            <div id="double_click" style="width: 20px;height: 20px;background-color: green;margin: 0px 10px;border: 1px solid black;float: left;"></div>
+            <div style="clear:both"></div>
+            <div id="box_B" style="width: 100px;height: 100px;background-color: yellow;margin: 10px;border: 1px solid black; float:left; display:block"></div>
+            <div id="box_C" style="width: 100px;height: 100px;background-color: red;margin: 10px;border: 1px solid black;float: left;"></div>
         </fieldset>
         <script src="main.js"></script>
     </body>
