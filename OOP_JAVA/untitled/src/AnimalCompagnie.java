@@ -1,5 +1,4 @@
-public interface AnimalCompagnie {
-    public String getName();
-    public void setName(String name);
-    public void jouer();
+package PACKAGE_NAME;
+
+public interface AnimalCOmpagnie {
 }
