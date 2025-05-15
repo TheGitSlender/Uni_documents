@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public interface AnimalCompagnie {
+    String get_name();
+    void set_name(String new_name);
+    void jouer();
 
-public interface AnimalCOmpagnie {
+    default void message() {
+        System.out.println("Je susi un animal de compagnie.");
+    }
 }

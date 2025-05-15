@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
-
-public class Spider {
+public class Spider extends Animal {
+    public Spider(){
+        super(8);
+    }
+    @Override
+    public void manger(){
+        System.out.println("The spider eats insects");
+    }
 }
