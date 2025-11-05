@@ -1,0 +1,7006 @@
+{
+  "planet_id": 2,
+  "planet_name": "Purge",
+  "results": [
+    {
+      "trip": 1,
+      "survived": 1,
+      "total_saved": 1,
+      "total_lost": 0,
+      "remaining": 999
+    },
+    {
+      "trip": 2,
+      "survived": 1,
+      "total_saved": 2,
+      "total_lost": 0,
+      "remaining": 998
+    },
+    {
+      "trip": 3,
+      "survived": 1,
+      "total_saved": 3,
+      "total_lost": 0,
+      "remaining": 997
+    },
+    {
+      "trip": 4,
+      "survived": 1,
+      "total_saved": 4,
+      "total_lost": 0,
+      "remaining": 996
+    },
+    {
+      "trip": 5,
+      "survived": 1,
+      "total_saved": 5,
+      "total_lost": 0,
+      "remaining": 995
+    },
+    {
+      "trip": 6,
+      "survived": 1,
+      "total_saved": 6,
+      "total_lost": 0,
+      "remaining": 994
+    },
+    {
+      "trip": 7,
+      "survived": 1,
+      "total_saved": 7,
+      "total_lost": 0,
+      "remaining": 993
+    },
+    {
+      "trip": 8,
+      "survived": 1,
+      "total_saved": 8,
+      "total_lost": 0,
+      "remaining": 992
+    },
+    {
+      "trip": 9,
+      "survived": 1,
+      "total_saved": 9,
+      "total_lost": 0,
+      "remaining": 991
+    },
+    {
+      "trip": 10,
+      "survived": 1,
+      "total_saved": 10,
+      "total_lost": 0,
+      "remaining": 990
+    },
+    {
+      "trip": 11,
+      "survived": 1,
+      "total_saved": 11,
+      "total_lost": 0,
+      "remaining": 989
+    },
+    {
+      "trip": 12,
+      "survived": 1,
+      "total_saved": 12,
+      "total_lost": 0,
+      "remaining": 988
+    },
+    {
+      "trip": 13,
+      "survived": 0,
+      "total_saved": 12,
+      "total_lost": 1,
+      "remaining": 987
+    },
+    {
+      "trip": 14,
+      "survived": 0,
+      "total_saved": 12,
+      "total_lost": 2,
+      "remaining": 986
+    },
+    {
+      "trip": 15,
+      "survived": 1,
+      "total_saved": 13,
+      "total_lost": 2,
+      "remaining": 985
+    },
+    {
+      "trip": 16,
+      "survived": 1,
+      "total_saved": 14,
+      "total_lost": 2,
+      "remaining": 984
+    },
+    {
+      "trip": 17,
+      "survived": 1,
+      "total_saved": 15,
+      "total_lost": 2,
+      "remaining": 983
+    },
+    {
+      "trip": 18,
+      "survived": 0,
+      "total_saved": 15,
+      "total_lost": 3,
+      "remaining": 982
+    },
+    {
+      "trip": 19,
+      "survived": 0,
+      "total_saved": 15,
+      "total_lost": 4,
+      "remaining": 981
+    },
+    {
+      "trip": 20,
+      "survived": 1,
+      "total_saved": 16,
+      "total_lost": 4,
+      "remaining": 980
+    },
+    {
+      "trip": 21,
+      "survived": 0,
+      "total_saved": 16,
+      "total_lost": 5,
+      "remaining": 979
+    },
+    {
+      "trip": 22,
+      "survived": 1,
+      "total_saved": 17,
+      "total_lost": 5,
+      "remaining": 978
+    },
+    {
+      "trip": 23,
+      "survived": 1,
+      "total_saved": 18,
+      "total_lost": 5,
+      "remaining": 977
+    },
+    {
+      "trip": 24,
+      "survived": 1,
+      "total_saved": 19,
+      "total_lost": 5,
+      "remaining": 976
+    },
+    {
+      "trip": 25,
+      "survived": 0,
+      "total_saved": 19,
+      "total_lost": 6,
+      "remaining": 975
+    },
+    {
+      "trip": 26,
+      "survived": 1,
+      "total_saved": 20,
+      "total_lost": 6,
+      "remaining": 974
+    },
+    {
+      "trip": 27,
+      "survived": 1,
+      "total_saved": 21,
+      "total_lost": 6,
+      "remaining": 973
+    },
+    {
+      "trip": 28,
+      "survived": 0,
+      "total_saved": 21,
+      "total_lost": 7,
+      "remaining": 972
+    },
+    {
+      "trip": 29,
+      "survived": 0,
+      "total_saved": 21,
+      "total_lost": 8,
+      "remaining": 971
+    },
+    {
+      "trip": 30,
+      "survived": 0,
+      "total_saved": 21,
+      "total_lost": 9,
+      "remaining": 970
+    },
+    {
+      "trip": 31,
+      "survived": 1,
+      "total_saved": 22,
+      "total_lost": 9,
+      "remaining": 969
+    },
+    {
+      "trip": 32,
+      "survived": 1,
+      "total_saved": 23,
+      "total_lost": 9,
+      "remaining": 968
+    },
+    {
+      "trip": 33,
+      "survived": 1,
+      "total_saved": 24,
+      "total_lost": 9,
+      "remaining": 967
+    },
+    {
+      "trip": 34,
+      "survived": 0,
+      "total_saved": 24,
+      "total_lost": 10,
+      "remaining": 966
+    },
+    {
+      "trip": 35,
+      "survived": 1,
+      "total_saved": 25,
+      "total_lost": 10,
+      "remaining": 965
+    },
+    {
+      "trip": 36,
+      "survived": 1,
+      "total_saved": 26,
+      "total_lost": 10,
+      "remaining": 964
+    },
+    {
+      "trip": 37,
+      "survived": 0,
+      "total_saved": 26,
+      "total_lost": 11,
+      "remaining": 963
+    },
+    {
+      "trip": 38,
+      "survived": 0,
+      "total_saved": 26,
+      "total_lost": 12,
+      "remaining": 962
+    },
+    {
+      "trip": 39,
+      "survived": 1,
+      "total_saved": 27,
+      "total_lost": 12,
+      "remaining": 961
+    },
+    {
+      "trip": 40,
+      "survived": 1,
+      "total_saved": 28,
+      "total_lost": 12,
+      "remaining": 960
+    },
+    {
+      "trip": 41,
+      "survived": 0,
+      "total_saved": 28,
+      "total_lost": 13,
+      "remaining": 959
+    },
+    {
+      "trip": 42,
+      "survived": 0,
+      "total_saved": 28,
+      "total_lost": 14,
+      "remaining": 958
+    },
+    {
+      "trip": 43,
+      "survived": 0,
+      "total_saved": 28,
+      "total_lost": 15,
+      "remaining": 957
+    },
+    {
+      "trip": 44,
+      "survived": 1,
+      "total_saved": 29,
+      "total_lost": 15,
+      "remaining": 956
+    },
+    {
+      "trip": 45,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 16,
+      "remaining": 955
+    },
+    {
+      "trip": 46,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 17,
+      "remaining": 954
+    },
+    {
+      "trip": 47,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 18,
+      "remaining": 953
+    },
+    {
+      "trip": 48,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 19,
+      "remaining": 952
+    },
+    {
+      "trip": 49,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 20,
+      "remaining": 951
+    },
+    {
+      "trip": 50,
+      "survived": 0,
+      "total_saved": 29,
+      "total_lost": 21,
+      "remaining": 950
+    },
+    {
+      "trip": 51,
+      "survived": 1,
+      "total_saved": 30,
+      "total_lost": 21,
+      "remaining": 949
+    },
+    {
+      "trip": 52,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 22,
+      "remaining": 948
+    },
+    {
+      "trip": 53,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 23,
+      "remaining": 947
+    },
+    {
+      "trip": 54,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 24,
+      "remaining": 946
+    },
+    {
+      "trip": 55,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 25,
+      "remaining": 945
+    },
+    {
+      "trip": 56,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 26,
+      "remaining": 944
+    },
+    {
+      "trip": 57,
+      "survived": 0,
+      "total_saved": 30,
+      "total_lost": 27,
+      "remaining": 943
+    },
+    {
+      "trip": 58,
+      "survived": 1,
+      "total_saved": 31,
+      "total_lost": 27,
+      "remaining": 942
+    },
+    {
+      "trip": 59,
+      "survived": 0,
+      "total_saved": 31,
+      "total_lost": 28,
+      "remaining": 941
+    },
+    {
+      "trip": 60,
+      "survived": 0,
+      "total_saved": 31,
+      "total_lost": 29,
+      "remaining": 940
+    },
+    {
+      "trip": 61,
+      "survived": 0,
+      "total_saved": 31,
+      "total_lost": 30,
+      "remaining": 939
+    },
+    {
+      "trip": 62,
+      "survived": 1,
+      "total_saved": 32,
+      "total_lost": 30,
+      "remaining": 938
+    },
+    {
+      "trip": 63,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 31,
+      "remaining": 937
+    },
+    {
+      "trip": 64,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 32,
+      "remaining": 936
+    },
+    {
+      "trip": 65,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 33,
+      "remaining": 935
+    },
+    {
+      "trip": 66,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 34,
+      "remaining": 934
+    },
+    {
+      "trip": 67,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 35,
+      "remaining": 933
+    },
+    {
+      "trip": 68,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 36,
+      "remaining": 932
+    },
+    {
+      "trip": 69,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 37,
+      "remaining": 931
+    },
+    {
+      "trip": 70,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 38,
+      "remaining": 930
+    },
+    {
+      "trip": 71,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 39,
+      "remaining": 929
+    },
+    {
+      "trip": 72,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 40,
+      "remaining": 928
+    },
+    {
+      "trip": 73,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 41,
+      "remaining": 927
+    },
+    {
+      "trip": 74,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 42,
+      "remaining": 926
+    },
+    {
+      "trip": 75,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 43,
+      "remaining": 925
+    },
+    {
+      "trip": 76,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 44,
+      "remaining": 924
+    },
+    {
+      "trip": 77,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 45,
+      "remaining": 923
+    },
+    {
+      "trip": 78,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 46,
+      "remaining": 922
+    },
+    {
+      "trip": 79,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 47,
+      "remaining": 921
+    },
+    {
+      "trip": 80,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 48,
+      "remaining": 920
+    },
+    {
+      "trip": 81,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 49,
+      "remaining": 919
+    },
+    {
+      "trip": 82,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 50,
+      "remaining": 918
+    },
+    {
+      "trip": 83,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 51,
+      "remaining": 917
+    },
+    {
+      "trip": 84,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 52,
+      "remaining": 916
+    },
+    {
+      "trip": 85,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 53,
+      "remaining": 915
+    },
+    {
+      "trip": 86,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 54,
+      "remaining": 914
+    },
+    {
+      "trip": 87,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 55,
+      "remaining": 913
+    },
+    {
+      "trip": 88,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 56,
+      "remaining": 912
+    },
+    {
+      "trip": 89,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 57,
+      "remaining": 911
+    },
+    {
+      "trip": 90,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 58,
+      "remaining": 910
+    },
+    {
+      "trip": 91,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 59,
+      "remaining": 909
+    },
+    {
+      "trip": 92,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 60,
+      "remaining": 908
+    },
+    {
+      "trip": 93,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 61,
+      "remaining": 907
+    },
+    {
+      "trip": 94,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 62,
+      "remaining": 906
+    },
+    {
+      "trip": 95,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 63,
+      "remaining": 905
+    },
+    {
+      "trip": 96,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 64,
+      "remaining": 904
+    },
+    {
+      "trip": 97,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 65,
+      "remaining": 903
+    },
+    {
+      "trip": 98,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 66,
+      "remaining": 902
+    },
+    {
+      "trip": 99,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 67,
+      "remaining": 901
+    },
+    {
+      "trip": 100,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 68,
+      "remaining": 900
+    },
+    {
+      "trip": 101,
+      "survived": 0,
+      "total_saved": 32,
+      "total_lost": 69,
+      "remaining": 899
+    },
+    {
+      "trip": 102,
+      "survived": 1,
+      "total_saved": 33,
+      "total_lost": 69,
+      "remaining": 898
+    },
+    {
+      "trip": 103,
+      "survived": 1,
+      "total_saved": 34,
+      "total_lost": 69,
+      "remaining": 897
+    },
+    {
+      "trip": 104,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 70,
+      "remaining": 896
+    },
+    {
+      "trip": 105,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 71,
+      "remaining": 895
+    },
+    {
+      "trip": 106,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 72,
+      "remaining": 894
+    },
+    {
+      "trip": 107,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 73,
+      "remaining": 893
+    },
+    {
+      "trip": 108,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 74,
+      "remaining": 892
+    },
+    {
+      "trip": 109,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 75,
+      "remaining": 891
+    },
+    {
+      "trip": 110,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 76,
+      "remaining": 890
+    },
+    {
+      "trip": 111,
+      "survived": 0,
+      "total_saved": 34,
+      "total_lost": 77,
+      "remaining": 889
+    },
+    {
+      "trip": 112,
+      "survived": 1,
+      "total_saved": 35,
+      "total_lost": 77,
+      "remaining": 888
+    },
+    {
+      "trip": 113,
+      "survived": 0,
+      "total_saved": 35,
+      "total_lost": 78,
+      "remaining": 887
+    },
+    {
+      "trip": 114,
+      "survived": 1,
+      "total_saved": 36,
+      "total_lost": 78,
+      "remaining": 886
+    },
+    {
+      "trip": 115,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 79,
+      "remaining": 885
+    },
+    {
+      "trip": 116,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 80,
+      "remaining": 884
+    },
+    {
+      "trip": 117,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 81,
+      "remaining": 883
+    },
+    {
+      "trip": 118,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 82,
+      "remaining": 882
+    },
+    {
+      "trip": 119,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 83,
+      "remaining": 881
+    },
+    {
+      "trip": 120,
+      "survived": 0,
+      "total_saved": 36,
+      "total_lost": 84,
+      "remaining": 880
+    },
+    {
+      "trip": 121,
+      "survived": 1,
+      "total_saved": 37,
+      "total_lost": 84,
+      "remaining": 879
+    },
+    {
+      "trip": 122,
+      "survived": 1,
+      "total_saved": 38,
+      "total_lost": 84,
+      "remaining": 878
+    },
+    {
+      "trip": 123,
+      "survived": 1,
+      "total_saved": 39,
+      "total_lost": 84,
+      "remaining": 877
+    },
+    {
+      "trip": 124,
+      "survived": 0,
+      "total_saved": 39,
+      "total_lost": 85,
+      "remaining": 876
+    },
+    {
+      "trip": 125,
+      "survived": 1,
+      "total_saved": 40,
+      "total_lost": 85,
+      "remaining": 875
+    },
+    {
+      "trip": 126,
+      "survived": 1,
+      "total_saved": 41,
+      "total_lost": 85,
+      "remaining": 874
+    },
+    {
+      "trip": 127,
+      "survived": 0,
+      "total_saved": 41,
+      "total_lost": 86,
+      "remaining": 873
+    },
+    {
+      "trip": 128,
+      "survived": 0,
+      "total_saved": 41,
+      "total_lost": 87,
+      "remaining": 872
+    },
+    {
+      "trip": 129,
+      "survived": 1,
+      "total_saved": 42,
+      "total_lost": 87,
+      "remaining": 871
+    },
+    {
+      "trip": 130,
+      "survived": 0,
+      "total_saved": 42,
+      "total_lost": 88,
+      "remaining": 870
+    },
+    {
+      "trip": 131,
+      "survived": 1,
+      "total_saved": 43,
+      "total_lost": 88,
+      "remaining": 869
+    },
+    {
+      "trip": 132,
+      "survived": 1,
+      "total_saved": 44,
+      "total_lost": 88,
+      "remaining": 868
+    },
+    {
+      "trip": 133,
+      "survived": 1,
+      "total_saved": 45,
+      "total_lost": 88,
+      "remaining": 867
+    },
+    {
+      "trip": 134,
+      "survived": 0,
+      "total_saved": 45,
+      "total_lost": 89,
+      "remaining": 866
+    },
+    {
+      "trip": 135,
+      "survived": 1,
+      "total_saved": 46,
+      "total_lost": 89,
+      "remaining": 865
+    },
+    {
+      "trip": 136,
+      "survived": 0,
+      "total_saved": 46,
+      "total_lost": 90,
+      "remaining": 864
+    },
+    {
+      "trip": 137,
+      "survived": 0,
+      "total_saved": 46,
+      "total_lost": 91,
+      "remaining": 863
+    },
+    {
+      "trip": 138,
+      "survived": 0,
+      "total_saved": 46,
+      "total_lost": 92,
+      "remaining": 862
+    },
+    {
+      "trip": 139,
+      "survived": 1,
+      "total_saved": 47,
+      "total_lost": 92,
+      "remaining": 861
+    },
+    {
+      "trip": 140,
+      "survived": 0,
+      "total_saved": 47,
+      "total_lost": 93,
+      "remaining": 860
+    },
+    {
+      "trip": 141,
+      "survived": 1,
+      "total_saved": 48,
+      "total_lost": 93,
+      "remaining": 859
+    },
+    {
+      "trip": 142,
+      "survived": 1,
+      "total_saved": 49,
+      "total_lost": 93,
+      "remaining": 858
+    },
+    {
+      "trip": 143,
+      "survived": 1,
+      "total_saved": 50,
+      "total_lost": 93,
+      "remaining": 857
+    },
+    {
+      "trip": 144,
+      "survived": 1,
+      "total_saved": 51,
+      "total_lost": 93,
+      "remaining": 856
+    },
+    {
+      "trip": 145,
+      "survived": 0,
+      "total_saved": 51,
+      "total_lost": 94,
+      "remaining": 855
+    },
+    {
+      "trip": 146,
+      "survived": 1,
+      "total_saved": 52,
+      "total_lost": 94,
+      "remaining": 854
+    },
+    {
+      "trip": 147,
+      "survived": 1,
+      "total_saved": 53,
+      "total_lost": 94,
+      "remaining": 853
+    },
+    {
+      "trip": 148,
+      "survived": 0,
+      "total_saved": 53,
+      "total_lost": 95,
+      "remaining": 852
+    },
+    {
+      "trip": 149,
+      "survived": 1,
+      "total_saved": 54,
+      "total_lost": 95,
+      "remaining": 851
+    },
+    {
+      "trip": 150,
+      "survived": 1,
+      "total_saved": 55,
+      "total_lost": 95,
+      "remaining": 850
+    },
+    {
+      "trip": 151,
+      "survived": 1,
+      "total_saved": 56,
+      "total_lost": 95,
+      "remaining": 849
+    },
+    {
+      "trip": 152,
+      "survived": 0,
+      "total_saved": 56,
+      "total_lost": 96,
+      "remaining": 848
+    },
+    {
+      "trip": 153,
+      "survived": 1,
+      "total_saved": 57,
+      "total_lost": 96,
+      "remaining": 847
+    },
+    {
+      "trip": 154,
+      "survived": 1,
+      "total_saved": 58,
+      "total_lost": 96,
+      "remaining": 846
+    },
+    {
+      "trip": 155,
+      "survived": 1,
+      "total_saved": 59,
+      "total_lost": 96,
+      "remaining": 845
+    },
+    {
+      "trip": 156,
+      "survived": 1,
+      "total_saved": 60,
+      "total_lost": 96,
+      "remaining": 844
+    },
+    {
+      "trip": 157,
+      "survived": 1,
+      "total_saved": 61,
+      "total_lost": 96,
+      "remaining": 843
+    },
+    {
+      "trip": 158,
+      "survived": 0,
+      "total_saved": 61,
+      "total_lost": 97,
+      "remaining": 842
+    },
+    {
+      "trip": 159,
+      "survived": 1,
+      "total_saved": 62,
+      "total_lost": 97,
+      "remaining": 841
+    },
+    {
+      "trip": 160,
+      "survived": 1,
+      "total_saved": 63,
+      "total_lost": 97,
+      "remaining": 840
+    },
+    {
+      "trip": 161,
+      "survived": 1,
+      "total_saved": 64,
+      "total_lost": 97,
+      "remaining": 839
+    },
+    {
+      "trip": 162,
+      "survived": 1,
+      "total_saved": 65,
+      "total_lost": 97,
+      "remaining": 838
+    },
+    {
+      "trip": 163,
+      "survived": 1,
+      "total_saved": 66,
+      "total_lost": 97,
+      "remaining": 837
+    },
+    {
+      "trip": 164,
+      "survived": 1,
+      "total_saved": 67,
+      "total_lost": 97,
+      "remaining": 836
+    },
+    {
+      "trip": 165,
+      "survived": 1,
+      "total_saved": 68,
+      "total_lost": 97,
+      "remaining": 835
+    },
+    {
+      "trip": 166,
+      "survived": 1,
+      "total_saved": 69,
+      "total_lost": 97,
+      "remaining": 834
+    },
+    {
+      "trip": 167,
+      "survived": 1,
+      "total_saved": 70,
+      "total_lost": 97,
+      "remaining": 833
+    },
+    {
+      "trip": 168,
+      "survived": 1,
+      "total_saved": 71,
+      "total_lost": 97,
+      "remaining": 832
+    },
+    {
+      "trip": 169,
+      "survived": 1,
+      "total_saved": 72,
+      "total_lost": 97,
+      "remaining": 831
+    },
+    {
+      "trip": 170,
+      "survived": 1,
+      "total_saved": 73,
+      "total_lost": 97,
+      "remaining": 830
+    },
+    {
+      "trip": 171,
+      "survived": 1,
+      "total_saved": 74,
+      "total_lost": 97,
+      "remaining": 829
+    },
+    {
+      "trip": 172,
+      "survived": 1,
+      "total_saved": 75,
+      "total_lost": 97,
+      "remaining": 828
+    },
+    {
+      "trip": 173,
+      "survived": 1,
+      "total_saved": 76,
+      "total_lost": 97,
+      "remaining": 827
+    },
+    {
+      "trip": 174,
+      "survived": 1,
+      "total_saved": 77,
+      "total_lost": 97,
+      "remaining": 826
+    },
+    {
+      "trip": 175,
+      "survived": 1,
+      "total_saved": 78,
+      "total_lost": 97,
+      "remaining": 825
+    },
+    {
+      "trip": 176,
+      "survived": 1,
+      "total_saved": 79,
+      "total_lost": 97,
+      "remaining": 824
+    },
+    {
+      "trip": 177,
+      "survived": 1,
+      "total_saved": 80,
+      "total_lost": 97,
+      "remaining": 823
+    },
+    {
+      "trip": 178,
+      "survived": 1,
+      "total_saved": 81,
+      "total_lost": 97,
+      "remaining": 822
+    },
+    {
+      "trip": 179,
+      "survived": 1,
+      "total_saved": 82,
+      "total_lost": 97,
+      "remaining": 821
+    },
+    {
+      "trip": 180,
+      "survived": 1,
+      "total_saved": 83,
+      "total_lost": 97,
+      "remaining": 820
+    },
+    {
+      "trip": 181,
+      "survived": 1,
+      "total_saved": 84,
+      "total_lost": 97,
+      "remaining": 819
+    },
+    {
+      "trip": 182,
+      "survived": 1,
+      "total_saved": 85,
+      "total_lost": 97,
+      "remaining": 818
+    },
+    {
+      "trip": 183,
+      "survived": 1,
+      "total_saved": 86,
+      "total_lost": 97,
+      "remaining": 817
+    },
+    {
+      "trip": 184,
+      "survived": 1,
+      "total_saved": 87,
+      "total_lost": 97,
+      "remaining": 816
+    },
+    {
+      "trip": 185,
+      "survived": 1,
+      "total_saved": 88,
+      "total_lost": 97,
+      "remaining": 815
+    },
+    {
+      "trip": 186,
+      "survived": 1,
+      "total_saved": 89,
+      "total_lost": 97,
+      "remaining": 814
+    },
+    {
+      "trip": 187,
+      "survived": 1,
+      "total_saved": 90,
+      "total_lost": 97,
+      "remaining": 813
+    },
+    {
+      "trip": 188,
+      "survived": 1,
+      "total_saved": 91,
+      "total_lost": 97,
+      "remaining": 812
+    },
+    {
+      "trip": 189,
+      "survived": 1,
+      "total_saved": 92,
+      "total_lost": 97,
+      "remaining": 811
+    },
+    {
+      "trip": 190,
+      "survived": 1,
+      "total_saved": 93,
+      "total_lost": 97,
+      "remaining": 810
+    },
+    {
+      "trip": 191,
+      "survived": 1,
+      "total_saved": 94,
+      "total_lost": 97,
+      "remaining": 809
+    },
+    {
+      "trip": 192,
+      "survived": 1,
+      "total_saved": 95,
+      "total_lost": 97,
+      "remaining": 808
+    },
+    {
+      "trip": 193,
+      "survived": 1,
+      "total_saved": 96,
+      "total_lost": 97,
+      "remaining": 807
+    },
+    {
+      "trip": 194,
+      "survived": 1,
+      "total_saved": 97,
+      "total_lost": 97,
+      "remaining": 806
+    },
+    {
+      "trip": 195,
+      "survived": 1,
+      "total_saved": 98,
+      "total_lost": 97,
+      "remaining": 805
+    },
+    {
+      "trip": 196,
+      "survived": 1,
+      "total_saved": 99,
+      "total_lost": 97,
+      "remaining": 804
+    },
+    {
+      "trip": 197,
+      "survived": 1,
+      "total_saved": 100,
+      "total_lost": 97,
+      "remaining": 803
+    },
+    {
+      "trip": 198,
+      "survived": 1,
+      "total_saved": 101,
+      "total_lost": 97,
+      "remaining": 802
+    },
+    {
+      "trip": 199,
+      "survived": 1,
+      "total_saved": 102,
+      "total_lost": 97,
+      "remaining": 801
+    },
+    {
+      "trip": 200,
+      "survived": 1,
+      "total_saved": 103,
+      "total_lost": 97,
+      "remaining": 800
+    },
+    {
+      "trip": 201,
+      "survived": 0,
+      "total_saved": 103,
+      "total_lost": 98,
+      "remaining": 799
+    },
+    {
+      "trip": 202,
+      "survived": 1,
+      "total_saved": 104,
+      "total_lost": 98,
+      "remaining": 798
+    },
+    {
+      "trip": 203,
+      "survived": 1,
+      "total_saved": 105,
+      "total_lost": 98,
+      "remaining": 797
+    },
+    {
+      "trip": 204,
+      "survived": 1,
+      "total_saved": 106,
+      "total_lost": 98,
+      "remaining": 796
+    },
+    {
+      "trip": 205,
+      "survived": 1,
+      "total_saved": 107,
+      "total_lost": 98,
+      "remaining": 795
+    },
+    {
+      "trip": 206,
+      "survived": 1,
+      "total_saved": 108,
+      "total_lost": 98,
+      "remaining": 794
+    },
+    {
+      "trip": 207,
+      "survived": 1,
+      "total_saved": 109,
+      "total_lost": 98,
+      "remaining": 793
+    },
+    {
+      "trip": 208,
+      "survived": 1,
+      "total_saved": 110,
+      "total_lost": 98,
+      "remaining": 792
+    },
+    {
+      "trip": 209,
+      "survived": 1,
+      "total_saved": 111,
+      "total_lost": 98,
+      "remaining": 791
+    },
+    {
+      "trip": 210,
+      "survived": 1,
+      "total_saved": 112,
+      "total_lost": 98,
+      "remaining": 790
+    },
+    {
+      "trip": 211,
+      "survived": 1,
+      "total_saved": 113,
+      "total_lost": 98,
+      "remaining": 789
+    },
+    {
+      "trip": 212,
+      "survived": 1,
+      "total_saved": 114,
+      "total_lost": 98,
+      "remaining": 788
+    },
+    {
+      "trip": 213,
+      "survived": 1,
+      "total_saved": 115,
+      "total_lost": 98,
+      "remaining": 787
+    },
+    {
+      "trip": 214,
+      "survived": 1,
+      "total_saved": 116,
+      "total_lost": 98,
+      "remaining": 786
+    },
+    {
+      "trip": 215,
+      "survived": 1,
+      "total_saved": 117,
+      "total_lost": 98,
+      "remaining": 785
+    },
+    {
+      "trip": 216,
+      "survived": 0,
+      "total_saved": 117,
+      "total_lost": 99,
+      "remaining": 784
+    },
+    {
+      "trip": 217,
+      "survived": 1,
+      "total_saved": 118,
+      "total_lost": 99,
+      "remaining": 783
+    },
+    {
+      "trip": 218,
+      "survived": 1,
+      "total_saved": 119,
+      "total_lost": 99,
+      "remaining": 782
+    },
+    {
+      "trip": 219,
+      "survived": 1,
+      "total_saved": 120,
+      "total_lost": 99,
+      "remaining": 781
+    },
+    {
+      "trip": 220,
+      "survived": 1,
+      "total_saved": 121,
+      "total_lost": 99,
+      "remaining": 780
+    },
+    {
+      "trip": 221,
+      "survived": 1,
+      "total_saved": 122,
+      "total_lost": 99,
+      "remaining": 779
+    },
+    {
+      "trip": 222,
+      "survived": 0,
+      "total_saved": 122,
+      "total_lost": 100,
+      "remaining": 778
+    },
+    {
+      "trip": 223,
+      "survived": 1,
+      "total_saved": 123,
+      "total_lost": 100,
+      "remaining": 777
+    },
+    {
+      "trip": 224,
+      "survived": 0,
+      "total_saved": 123,
+      "total_lost": 101,
+      "remaining": 776
+    },
+    {
+      "trip": 225,
+      "survived": 1,
+      "total_saved": 124,
+      "total_lost": 101,
+      "remaining": 775
+    },
+    {
+      "trip": 226,
+      "survived": 1,
+      "total_saved": 125,
+      "total_lost": 101,
+      "remaining": 774
+    },
+    {
+      "trip": 227,
+      "survived": 1,
+      "total_saved": 126,
+      "total_lost": 101,
+      "remaining": 773
+    },
+    {
+      "trip": 228,
+      "survived": 1,
+      "total_saved": 127,
+      "total_lost": 101,
+      "remaining": 772
+    },
+    {
+      "trip": 229,
+      "survived": 1,
+      "total_saved": 128,
+      "total_lost": 101,
+      "remaining": 771
+    },
+    {
+      "trip": 230,
+      "survived": 0,
+      "total_saved": 128,
+      "total_lost": 102,
+      "remaining": 770
+    },
+    {
+      "trip": 231,
+      "survived": 1,
+      "total_saved": 129,
+      "total_lost": 102,
+      "remaining": 769
+    },
+    {
+      "trip": 232,
+      "survived": 1,
+      "total_saved": 130,
+      "total_lost": 102,
+      "remaining": 768
+    },
+    {
+      "trip": 233,
+      "survived": 1,
+      "total_saved": 131,
+      "total_lost": 102,
+      "remaining": 767
+    },
+    {
+      "trip": 234,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 103,
+      "remaining": 766
+    },
+    {
+      "trip": 235,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 104,
+      "remaining": 765
+    },
+    {
+      "trip": 236,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 105,
+      "remaining": 764
+    },
+    {
+      "trip": 237,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 106,
+      "remaining": 763
+    },
+    {
+      "trip": 238,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 107,
+      "remaining": 762
+    },
+    {
+      "trip": 239,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 108,
+      "remaining": 761
+    },
+    {
+      "trip": 240,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 109,
+      "remaining": 760
+    },
+    {
+      "trip": 241,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 110,
+      "remaining": 759
+    },
+    {
+      "trip": 242,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 111,
+      "remaining": 758
+    },
+    {
+      "trip": 243,
+      "survived": 0,
+      "total_saved": 131,
+      "total_lost": 112,
+      "remaining": 757
+    },
+    {
+      "trip": 244,
+      "survived": 1,
+      "total_saved": 132,
+      "total_lost": 112,
+      "remaining": 756
+    },
+    {
+      "trip": 245,
+      "survived": 1,
+      "total_saved": 133,
+      "total_lost": 112,
+      "remaining": 755
+    },
+    {
+      "trip": 246,
+      "survived": 1,
+      "total_saved": 134,
+      "total_lost": 112,
+      "remaining": 754
+    },
+    {
+      "trip": 247,
+      "survived": 0,
+      "total_saved": 134,
+      "total_lost": 113,
+      "remaining": 753
+    },
+    {
+      "trip": 248,
+      "survived": 0,
+      "total_saved": 134,
+      "total_lost": 114,
+      "remaining": 752
+    },
+    {
+      "trip": 249,
+      "survived": 0,
+      "total_saved": 134,
+      "total_lost": 115,
+      "remaining": 751
+    },
+    {
+      "trip": 250,
+      "survived": 0,
+      "total_saved": 134,
+      "total_lost": 116,
+      "remaining": 750
+    },
+    {
+      "trip": 251,
+      "survived": 1,
+      "total_saved": 135,
+      "total_lost": 116,
+      "remaining": 749
+    },
+    {
+      "trip": 252,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 117,
+      "remaining": 748
+    },
+    {
+      "trip": 253,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 118,
+      "remaining": 747
+    },
+    {
+      "trip": 254,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 119,
+      "remaining": 746
+    },
+    {
+      "trip": 255,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 120,
+      "remaining": 745
+    },
+    {
+      "trip": 256,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 121,
+      "remaining": 744
+    },
+    {
+      "trip": 257,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 122,
+      "remaining": 743
+    },
+    {
+      "trip": 258,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 123,
+      "remaining": 742
+    },
+    {
+      "trip": 259,
+      "survived": 0,
+      "total_saved": 135,
+      "total_lost": 124,
+      "remaining": 741
+    },
+    {
+      "trip": 260,
+      "survived": 1,
+      "total_saved": 136,
+      "total_lost": 124,
+      "remaining": 740
+    },
+    {
+      "trip": 261,
+      "survived": 0,
+      "total_saved": 136,
+      "total_lost": 125,
+      "remaining": 739
+    },
+    {
+      "trip": 262,
+      "survived": 0,
+      "total_saved": 136,
+      "total_lost": 126,
+      "remaining": 738
+    },
+    {
+      "trip": 263,
+      "survived": 1,
+      "total_saved": 137,
+      "total_lost": 126,
+      "remaining": 737
+    },
+    {
+      "trip": 264,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 127,
+      "remaining": 736
+    },
+    {
+      "trip": 265,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 128,
+      "remaining": 735
+    },
+    {
+      "trip": 266,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 129,
+      "remaining": 734
+    },
+    {
+      "trip": 267,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 130,
+      "remaining": 733
+    },
+    {
+      "trip": 268,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 131,
+      "remaining": 732
+    },
+    {
+      "trip": 269,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 132,
+      "remaining": 731
+    },
+    {
+      "trip": 270,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 133,
+      "remaining": 730
+    },
+    {
+      "trip": 271,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 134,
+      "remaining": 729
+    },
+    {
+      "trip": 272,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 135,
+      "remaining": 728
+    },
+    {
+      "trip": 273,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 136,
+      "remaining": 727
+    },
+    {
+      "trip": 274,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 137,
+      "remaining": 726
+    },
+    {
+      "trip": 275,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 138,
+      "remaining": 725
+    },
+    {
+      "trip": 276,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 139,
+      "remaining": 724
+    },
+    {
+      "trip": 277,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 140,
+      "remaining": 723
+    },
+    {
+      "trip": 278,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 141,
+      "remaining": 722
+    },
+    {
+      "trip": 279,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 142,
+      "remaining": 721
+    },
+    {
+      "trip": 280,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 143,
+      "remaining": 720
+    },
+    {
+      "trip": 281,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 144,
+      "remaining": 719
+    },
+    {
+      "trip": 282,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 145,
+      "remaining": 718
+    },
+    {
+      "trip": 283,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 146,
+      "remaining": 717
+    },
+    {
+      "trip": 284,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 147,
+      "remaining": 716
+    },
+    {
+      "trip": 285,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 148,
+      "remaining": 715
+    },
+    {
+      "trip": 286,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 149,
+      "remaining": 714
+    },
+    {
+      "trip": 287,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 150,
+      "remaining": 713
+    },
+    {
+      "trip": 288,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 151,
+      "remaining": 712
+    },
+    {
+      "trip": 289,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 152,
+      "remaining": 711
+    },
+    {
+      "trip": 290,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 153,
+      "remaining": 710
+    },
+    {
+      "trip": 291,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 154,
+      "remaining": 709
+    },
+    {
+      "trip": 292,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 155,
+      "remaining": 708
+    },
+    {
+      "trip": 293,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 156,
+      "remaining": 707
+    },
+    {
+      "trip": 294,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 157,
+      "remaining": 706
+    },
+    {
+      "trip": 295,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 158,
+      "remaining": 705
+    },
+    {
+      "trip": 296,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 159,
+      "remaining": 704
+    },
+    {
+      "trip": 297,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 160,
+      "remaining": 703
+    },
+    {
+      "trip": 298,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 161,
+      "remaining": 702
+    },
+    {
+      "trip": 299,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 162,
+      "remaining": 701
+    },
+    {
+      "trip": 300,
+      "survived": 0,
+      "total_saved": 137,
+      "total_lost": 163,
+      "remaining": 700
+    },
+    {
+      "trip": 301,
+      "survived": 1,
+      "total_saved": 138,
+      "total_lost": 163,
+      "remaining": 699
+    },
+    {
+      "trip": 302,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 164,
+      "remaining": 698
+    },
+    {
+      "trip": 303,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 165,
+      "remaining": 697
+    },
+    {
+      "trip": 304,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 166,
+      "remaining": 696
+    },
+    {
+      "trip": 305,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 167,
+      "remaining": 695
+    },
+    {
+      "trip": 306,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 168,
+      "remaining": 694
+    },
+    {
+      "trip": 307,
+      "survived": 0,
+      "total_saved": 138,
+      "total_lost": 169,
+      "remaining": 693
+    },
+    {
+      "trip": 308,
+      "survived": 1,
+      "total_saved": 139,
+      "total_lost": 169,
+      "remaining": 692
+    },
+    {
+      "trip": 309,
+      "survived": 0,
+      "total_saved": 139,
+      "total_lost": 170,
+      "remaining": 691
+    },
+    {
+      "trip": 310,
+      "survived": 0,
+      "total_saved": 139,
+      "total_lost": 171,
+      "remaining": 690
+    },
+    {
+      "trip": 311,
+      "survived": 1,
+      "total_saved": 140,
+      "total_lost": 171,
+      "remaining": 689
+    },
+    {
+      "trip": 312,
+      "survived": 1,
+      "total_saved": 141,
+      "total_lost": 171,
+      "remaining": 688
+    },
+    {
+      "trip": 313,
+      "survived": 1,
+      "total_saved": 142,
+      "total_lost": 171,
+      "remaining": 687
+    },
+    {
+      "trip": 314,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 172,
+      "remaining": 686
+    },
+    {
+      "trip": 315,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 173,
+      "remaining": 685
+    },
+    {
+      "trip": 316,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 174,
+      "remaining": 684
+    },
+    {
+      "trip": 317,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 175,
+      "remaining": 683
+    },
+    {
+      "trip": 318,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 176,
+      "remaining": 682
+    },
+    {
+      "trip": 319,
+      "survived": 0,
+      "total_saved": 142,
+      "total_lost": 177,
+      "remaining": 681
+    },
+    {
+      "trip": 320,
+      "survived": 1,
+      "total_saved": 143,
+      "total_lost": 177,
+      "remaining": 680
+    },
+    {
+      "trip": 321,
+      "survived": 0,
+      "total_saved": 143,
+      "total_lost": 178,
+      "remaining": 679
+    },
+    {
+      "trip": 322,
+      "survived": 0,
+      "total_saved": 143,
+      "total_lost": 179,
+      "remaining": 678
+    },
+    {
+      "trip": 323,
+      "survived": 1,
+      "total_saved": 144,
+      "total_lost": 179,
+      "remaining": 677
+    },
+    {
+      "trip": 324,
+      "survived": 1,
+      "total_saved": 145,
+      "total_lost": 179,
+      "remaining": 676
+    },
+    {
+      "trip": 325,
+      "survived": 0,
+      "total_saved": 145,
+      "total_lost": 180,
+      "remaining": 675
+    },
+    {
+      "trip": 326,
+      "survived": 0,
+      "total_saved": 145,
+      "total_lost": 181,
+      "remaining": 674
+    },
+    {
+      "trip": 327,
+      "survived": 1,
+      "total_saved": 146,
+      "total_lost": 181,
+      "remaining": 673
+    },
+    {
+      "trip": 328,
+      "survived": 0,
+      "total_saved": 146,
+      "total_lost": 182,
+      "remaining": 672
+    },
+    {
+      "trip": 329,
+      "survived": 0,
+      "total_saved": 146,
+      "total_lost": 183,
+      "remaining": 671
+    },
+    {
+      "trip": 330,
+      "survived": 1,
+      "total_saved": 147,
+      "total_lost": 183,
+      "remaining": 670
+    },
+    {
+      "trip": 331,
+      "survived": 1,
+      "total_saved": 148,
+      "total_lost": 183,
+      "remaining": 669
+    },
+    {
+      "trip": 332,
+      "survived": 1,
+      "total_saved": 149,
+      "total_lost": 183,
+      "remaining": 668
+    },
+    {
+      "trip": 333,
+      "survived": 1,
+      "total_saved": 150,
+      "total_lost": 183,
+      "remaining": 667
+    },
+    {
+      "trip": 334,
+      "survived": 0,
+      "total_saved": 150,
+      "total_lost": 184,
+      "remaining": 666
+    },
+    {
+      "trip": 335,
+      "survived": 0,
+      "total_saved": 150,
+      "total_lost": 185,
+      "remaining": 665
+    },
+    {
+      "trip": 336,
+      "survived": 1,
+      "total_saved": 151,
+      "total_lost": 185,
+      "remaining": 664
+    },
+    {
+      "trip": 337,
+      "survived": 1,
+      "total_saved": 152,
+      "total_lost": 185,
+      "remaining": 663
+    },
+    {
+      "trip": 338,
+      "survived": 1,
+      "total_saved": 153,
+      "total_lost": 185,
+      "remaining": 662
+    },
+    {
+      "trip": 339,
+      "survived": 1,
+      "total_saved": 154,
+      "total_lost": 185,
+      "remaining": 661
+    },
+    {
+      "trip": 340,
+      "survived": 1,
+      "total_saved": 155,
+      "total_lost": 185,
+      "remaining": 660
+    },
+    {
+      "trip": 341,
+      "survived": 1,
+      "total_saved": 156,
+      "total_lost": 185,
+      "remaining": 659
+    },
+    {
+      "trip": 342,
+      "survived": 1,
+      "total_saved": 157,
+      "total_lost": 185,
+      "remaining": 658
+    },
+    {
+      "trip": 343,
+      "survived": 1,
+      "total_saved": 158,
+      "total_lost": 185,
+      "remaining": 657
+    },
+    {
+      "trip": 344,
+      "survived": 0,
+      "total_saved": 158,
+      "total_lost": 186,
+      "remaining": 656
+    },
+    {
+      "trip": 345,
+      "survived": 0,
+      "total_saved": 158,
+      "total_lost": 187,
+      "remaining": 655
+    },
+    {
+      "trip": 346,
+      "survived": 0,
+      "total_saved": 158,
+      "total_lost": 188,
+      "remaining": 654
+    },
+    {
+      "trip": 347,
+      "survived": 1,
+      "total_saved": 159,
+      "total_lost": 188,
+      "remaining": 653
+    },
+    {
+      "trip": 348,
+      "survived": 1,
+      "total_saved": 160,
+      "total_lost": 188,
+      "remaining": 652
+    },
+    {
+      "trip": 349,
+      "survived": 1,
+      "total_saved": 161,
+      "total_lost": 188,
+      "remaining": 651
+    },
+    {
+      "trip": 350,
+      "survived": 1,
+      "total_saved": 162,
+      "total_lost": 188,
+      "remaining": 650
+    },
+    {
+      "trip": 351,
+      "survived": 1,
+      "total_saved": 163,
+      "total_lost": 188,
+      "remaining": 649
+    },
+    {
+      "trip": 352,
+      "survived": 1,
+      "total_saved": 164,
+      "total_lost": 188,
+      "remaining": 648
+    },
+    {
+      "trip": 353,
+      "survived": 1,
+      "total_saved": 165,
+      "total_lost": 188,
+      "remaining": 647
+    },
+    {
+      "trip": 354,
+      "survived": 1,
+      "total_saved": 166,
+      "total_lost": 188,
+      "remaining": 646
+    },
+    {
+      "trip": 355,
+      "survived": 0,
+      "total_saved": 166,
+      "total_lost": 189,
+      "remaining": 645
+    },
+    {
+      "trip": 356,
+      "survived": 0,
+      "total_saved": 166,
+      "total_lost": 190,
+      "remaining": 644
+    },
+    {
+      "trip": 357,
+      "survived": 0,
+      "total_saved": 166,
+      "total_lost": 191,
+      "remaining": 643
+    },
+    {
+      "trip": 358,
+      "survived": 1,
+      "total_saved": 167,
+      "total_lost": 191,
+      "remaining": 642
+    },
+    {
+      "trip": 359,
+      "survived": 0,
+      "total_saved": 167,
+      "total_lost": 192,
+      "remaining": 641
+    },
+    {
+      "trip": 360,
+      "survived": 1,
+      "total_saved": 168,
+      "total_lost": 192,
+      "remaining": 640
+    },
+    {
+      "trip": 361,
+      "survived": 1,
+      "total_saved": 169,
+      "total_lost": 192,
+      "remaining": 639
+    },
+    {
+      "trip": 362,
+      "survived": 1,
+      "total_saved": 170,
+      "total_lost": 192,
+      "remaining": 638
+    },
+    {
+      "trip": 363,
+      "survived": 1,
+      "total_saved": 171,
+      "total_lost": 192,
+      "remaining": 637
+    },
+    {
+      "trip": 364,
+      "survived": 1,
+      "total_saved": 172,
+      "total_lost": 192,
+      "remaining": 636
+    },
+    {
+      "trip": 365,
+      "survived": 1,
+      "total_saved": 173,
+      "total_lost": 192,
+      "remaining": 635
+    },
+    {
+      "trip": 366,
+      "survived": 1,
+      "total_saved": 174,
+      "total_lost": 192,
+      "remaining": 634
+    },
+    {
+      "trip": 367,
+      "survived": 1,
+      "total_saved": 175,
+      "total_lost": 192,
+      "remaining": 633
+    },
+    {
+      "trip": 368,
+      "survived": 0,
+      "total_saved": 175,
+      "total_lost": 193,
+      "remaining": 632
+    },
+    {
+      "trip": 369,
+      "survived": 1,
+      "total_saved": 176,
+      "total_lost": 193,
+      "remaining": 631
+    },
+    {
+      "trip": 370,
+      "survived": 1,
+      "total_saved": 177,
+      "total_lost": 193,
+      "remaining": 630
+    },
+    {
+      "trip": 371,
+      "survived": 1,
+      "total_saved": 178,
+      "total_lost": 193,
+      "remaining": 629
+    },
+    {
+      "trip": 372,
+      "survived": 1,
+      "total_saved": 179,
+      "total_lost": 193,
+      "remaining": 628
+    },
+    {
+      "trip": 373,
+      "survived": 1,
+      "total_saved": 180,
+      "total_lost": 193,
+      "remaining": 627
+    },
+    {
+      "trip": 374,
+      "survived": 1,
+      "total_saved": 181,
+      "total_lost": 193,
+      "remaining": 626
+    },
+    {
+      "trip": 375,
+      "survived": 1,
+      "total_saved": 182,
+      "total_lost": 193,
+      "remaining": 625
+    },
+    {
+      "trip": 376,
+      "survived": 1,
+      "total_saved": 183,
+      "total_lost": 193,
+      "remaining": 624
+    },
+    {
+      "trip": 377,
+      "survived": 1,
+      "total_saved": 184,
+      "total_lost": 193,
+      "remaining": 623
+    },
+    {
+      "trip": 378,
+      "survived": 1,
+      "total_saved": 185,
+      "total_lost": 193,
+      "remaining": 622
+    },
+    {
+      "trip": 379,
+      "survived": 1,
+      "total_saved": 186,
+      "total_lost": 193,
+      "remaining": 621
+    },
+    {
+      "trip": 380,
+      "survived": 1,
+      "total_saved": 187,
+      "total_lost": 193,
+      "remaining": 620
+    },
+    {
+      "trip": 381,
+      "survived": 1,
+      "total_saved": 188,
+      "total_lost": 193,
+      "remaining": 619
+    },
+    {
+      "trip": 382,
+      "survived": 1,
+      "total_saved": 189,
+      "total_lost": 193,
+      "remaining": 618
+    },
+    {
+      "trip": 383,
+      "survived": 1,
+      "total_saved": 190,
+      "total_lost": 193,
+      "remaining": 617
+    },
+    {
+      "trip": 384,
+      "survived": 1,
+      "total_saved": 191,
+      "total_lost": 193,
+      "remaining": 616
+    },
+    {
+      "trip": 385,
+      "survived": 1,
+      "total_saved": 192,
+      "total_lost": 193,
+      "remaining": 615
+    },
+    {
+      "trip": 386,
+      "survived": 1,
+      "total_saved": 193,
+      "total_lost": 193,
+      "remaining": 614
+    },
+    {
+      "trip": 387,
+      "survived": 1,
+      "total_saved": 194,
+      "total_lost": 193,
+      "remaining": 613
+    },
+    {
+      "trip": 388,
+      "survived": 1,
+      "total_saved": 195,
+      "total_lost": 193,
+      "remaining": 612
+    },
+    {
+      "trip": 389,
+      "survived": 1,
+      "total_saved": 196,
+      "total_lost": 193,
+      "remaining": 611
+    },
+    {
+      "trip": 390,
+      "survived": 1,
+      "total_saved": 197,
+      "total_lost": 193,
+      "remaining": 610
+    },
+    {
+      "trip": 391,
+      "survived": 1,
+      "total_saved": 198,
+      "total_lost": 193,
+      "remaining": 609
+    },
+    {
+      "trip": 392,
+      "survived": 1,
+      "total_saved": 199,
+      "total_lost": 193,
+      "remaining": 608
+    },
+    {
+      "trip": 393,
+      "survived": 1,
+      "total_saved": 200,
+      "total_lost": 193,
+      "remaining": 607
+    },
+    {
+      "trip": 394,
+      "survived": 1,
+      "total_saved": 201,
+      "total_lost": 193,
+      "remaining": 606
+    },
+    {
+      "trip": 395,
+      "survived": 1,
+      "total_saved": 202,
+      "total_lost": 193,
+      "remaining": 605
+    },
+    {
+      "trip": 396,
+      "survived": 1,
+      "total_saved": 203,
+      "total_lost": 193,
+      "remaining": 604
+    },
+    {
+      "trip": 397,
+      "survived": 1,
+      "total_saved": 204,
+      "total_lost": 193,
+      "remaining": 603
+    },
+    {
+      "trip": 398,
+      "survived": 1,
+      "total_saved": 205,
+      "total_lost": 193,
+      "remaining": 602
+    },
+    {
+      "trip": 399,
+      "survived": 0,
+      "total_saved": 205,
+      "total_lost": 194,
+      "remaining": 601
+    },
+    {
+      "trip": 400,
+      "survived": 1,
+      "total_saved": 206,
+      "total_lost": 194,
+      "remaining": 600
+    },
+    {
+      "trip": 401,
+      "survived": 1,
+      "total_saved": 207,
+      "total_lost": 194,
+      "remaining": 599
+    },
+    {
+      "trip": 402,
+      "survived": 1,
+      "total_saved": 208,
+      "total_lost": 194,
+      "remaining": 598
+    },
+    {
+      "trip": 403,
+      "survived": 1,
+      "total_saved": 209,
+      "total_lost": 194,
+      "remaining": 597
+    },
+    {
+      "trip": 404,
+      "survived": 0,
+      "total_saved": 209,
+      "total_lost": 195,
+      "remaining": 596
+    },
+    {
+      "trip": 405,
+      "survived": 1,
+      "total_saved": 210,
+      "total_lost": 195,
+      "remaining": 595
+    },
+    {
+      "trip": 406,
+      "survived": 0,
+      "total_saved": 210,
+      "total_lost": 196,
+      "remaining": 594
+    },
+    {
+      "trip": 407,
+      "survived": 1,
+      "total_saved": 211,
+      "total_lost": 196,
+      "remaining": 593
+    },
+    {
+      "trip": 408,
+      "survived": 1,
+      "total_saved": 212,
+      "total_lost": 196,
+      "remaining": 592
+    },
+    {
+      "trip": 409,
+      "survived": 1,
+      "total_saved": 213,
+      "total_lost": 196,
+      "remaining": 591
+    },
+    {
+      "trip": 410,
+      "survived": 1,
+      "total_saved": 214,
+      "total_lost": 196,
+      "remaining": 590
+    },
+    {
+      "trip": 411,
+      "survived": 1,
+      "total_saved": 215,
+      "total_lost": 196,
+      "remaining": 589
+    },
+    {
+      "trip": 412,
+      "survived": 1,
+      "total_saved": 216,
+      "total_lost": 196,
+      "remaining": 588
+    },
+    {
+      "trip": 413,
+      "survived": 1,
+      "total_saved": 217,
+      "total_lost": 196,
+      "remaining": 587
+    },
+    {
+      "trip": 414,
+      "survived": 1,
+      "total_saved": 218,
+      "total_lost": 196,
+      "remaining": 586
+    },
+    {
+      "trip": 415,
+      "survived": 0,
+      "total_saved": 218,
+      "total_lost": 197,
+      "remaining": 585
+    },
+    {
+      "trip": 416,
+      "survived": 1,
+      "total_saved": 219,
+      "total_lost": 197,
+      "remaining": 584
+    },
+    {
+      "trip": 417,
+      "survived": 1,
+      "total_saved": 220,
+      "total_lost": 197,
+      "remaining": 583
+    },
+    {
+      "trip": 418,
+      "survived": 1,
+      "total_saved": 221,
+      "total_lost": 197,
+      "remaining": 582
+    },
+    {
+      "trip": 419,
+      "survived": 0,
+      "total_saved": 221,
+      "total_lost": 198,
+      "remaining": 581
+    },
+    {
+      "trip": 420,
+      "survived": 1,
+      "total_saved": 222,
+      "total_lost": 198,
+      "remaining": 580
+    },
+    {
+      "trip": 421,
+      "survived": 0,
+      "total_saved": 222,
+      "total_lost": 199,
+      "remaining": 579
+    },
+    {
+      "trip": 422,
+      "survived": 1,
+      "total_saved": 223,
+      "total_lost": 199,
+      "remaining": 578
+    },
+    {
+      "trip": 423,
+      "survived": 0,
+      "total_saved": 223,
+      "total_lost": 200,
+      "remaining": 577
+    },
+    {
+      "trip": 424,
+      "survived": 1,
+      "total_saved": 224,
+      "total_lost": 200,
+      "remaining": 576
+    },
+    {
+      "trip": 425,
+      "survived": 1,
+      "total_saved": 225,
+      "total_lost": 200,
+      "remaining": 575
+    },
+    {
+      "trip": 426,
+      "survived": 1,
+      "total_saved": 226,
+      "total_lost": 200,
+      "remaining": 574
+    },
+    {
+      "trip": 427,
+      "survived": 0,
+      "total_saved": 226,
+      "total_lost": 201,
+      "remaining": 573
+    },
+    {
+      "trip": 428,
+      "survived": 1,
+      "total_saved": 227,
+      "total_lost": 201,
+      "remaining": 572
+    },
+    {
+      "trip": 429,
+      "survived": 0,
+      "total_saved": 227,
+      "total_lost": 202,
+      "remaining": 571
+    },
+    {
+      "trip": 430,
+      "survived": 1,
+      "total_saved": 228,
+      "total_lost": 202,
+      "remaining": 570
+    },
+    {
+      "trip": 431,
+      "survived": 1,
+      "total_saved": 229,
+      "total_lost": 202,
+      "remaining": 569
+    },
+    {
+      "trip": 432,
+      "survived": 1,
+      "total_saved": 230,
+      "total_lost": 202,
+      "remaining": 568
+    },
+    {
+      "trip": 433,
+      "survived": 0,
+      "total_saved": 230,
+      "total_lost": 203,
+      "remaining": 567
+    },
+    {
+      "trip": 434,
+      "survived": 0,
+      "total_saved": 230,
+      "total_lost": 204,
+      "remaining": 566
+    },
+    {
+      "trip": 435,
+      "survived": 0,
+      "total_saved": 230,
+      "total_lost": 205,
+      "remaining": 565
+    },
+    {
+      "trip": 436,
+      "survived": 0,
+      "total_saved": 230,
+      "total_lost": 206,
+      "remaining": 564
+    },
+    {
+      "trip": 437,
+      "survived": 1,
+      "total_saved": 231,
+      "total_lost": 206,
+      "remaining": 563
+    },
+    {
+      "trip": 438,
+      "survived": 0,
+      "total_saved": 231,
+      "total_lost": 207,
+      "remaining": 562
+    },
+    {
+      "trip": 439,
+      "survived": 1,
+      "total_saved": 232,
+      "total_lost": 207,
+      "remaining": 561
+    },
+    {
+      "trip": 440,
+      "survived": 1,
+      "total_saved": 233,
+      "total_lost": 207,
+      "remaining": 560
+    },
+    {
+      "trip": 441,
+      "survived": 1,
+      "total_saved": 234,
+      "total_lost": 207,
+      "remaining": 559
+    },
+    {
+      "trip": 442,
+      "survived": 0,
+      "total_saved": 234,
+      "total_lost": 208,
+      "remaining": 558
+    },
+    {
+      "trip": 443,
+      "survived": 0,
+      "total_saved": 234,
+      "total_lost": 209,
+      "remaining": 557
+    },
+    {
+      "trip": 444,
+      "survived": 0,
+      "total_saved": 234,
+      "total_lost": 210,
+      "remaining": 556
+    },
+    {
+      "trip": 445,
+      "survived": 0,
+      "total_saved": 234,
+      "total_lost": 211,
+      "remaining": 555
+    },
+    {
+      "trip": 446,
+      "survived": 0,
+      "total_saved": 234,
+      "total_lost": 212,
+      "remaining": 554
+    },
+    {
+      "trip": 447,
+      "survived": 1,
+      "total_saved": 235,
+      "total_lost": 212,
+      "remaining": 553
+    },
+    {
+      "trip": 448,
+      "survived": 0,
+      "total_saved": 235,
+      "total_lost": 213,
+      "remaining": 552
+    },
+    {
+      "trip": 449,
+      "survived": 0,
+      "total_saved": 235,
+      "total_lost": 214,
+      "remaining": 551
+    },
+    {
+      "trip": 450,
+      "survived": 0,
+      "total_saved": 235,
+      "total_lost": 215,
+      "remaining": 550
+    },
+    {
+      "trip": 451,
+      "survived": 1,
+      "total_saved": 236,
+      "total_lost": 215,
+      "remaining": 549
+    },
+    {
+      "trip": 452,
+      "survived": 0,
+      "total_saved": 236,
+      "total_lost": 216,
+      "remaining": 548
+    },
+    {
+      "trip": 453,
+      "survived": 0,
+      "total_saved": 236,
+      "total_lost": 217,
+      "remaining": 547
+    },
+    {
+      "trip": 454,
+      "survived": 0,
+      "total_saved": 236,
+      "total_lost": 218,
+      "remaining": 546
+    },
+    {
+      "trip": 455,
+      "survived": 0,
+      "total_saved": 236,
+      "total_lost": 219,
+      "remaining": 545
+    },
+    {
+      "trip": 456,
+      "survived": 1,
+      "total_saved": 237,
+      "total_lost": 219,
+      "remaining": 544
+    },
+    {
+      "trip": 457,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 220,
+      "remaining": 543
+    },
+    {
+      "trip": 458,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 221,
+      "remaining": 542
+    },
+    {
+      "trip": 459,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 222,
+      "remaining": 541
+    },
+    {
+      "trip": 460,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 223,
+      "remaining": 540
+    },
+    {
+      "trip": 461,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 224,
+      "remaining": 539
+    },
+    {
+      "trip": 462,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 225,
+      "remaining": 538
+    },
+    {
+      "trip": 463,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 226,
+      "remaining": 537
+    },
+    {
+      "trip": 464,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 227,
+      "remaining": 536
+    },
+    {
+      "trip": 465,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 228,
+      "remaining": 535
+    },
+    {
+      "trip": 466,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 229,
+      "remaining": 534
+    },
+    {
+      "trip": 467,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 230,
+      "remaining": 533
+    },
+    {
+      "trip": 468,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 231,
+      "remaining": 532
+    },
+    {
+      "trip": 469,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 232,
+      "remaining": 531
+    },
+    {
+      "trip": 470,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 233,
+      "remaining": 530
+    },
+    {
+      "trip": 471,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 234,
+      "remaining": 529
+    },
+    {
+      "trip": 472,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 235,
+      "remaining": 528
+    },
+    {
+      "trip": 473,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 236,
+      "remaining": 527
+    },
+    {
+      "trip": 474,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 237,
+      "remaining": 526
+    },
+    {
+      "trip": 475,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 238,
+      "remaining": 525
+    },
+    {
+      "trip": 476,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 239,
+      "remaining": 524
+    },
+    {
+      "trip": 477,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 240,
+      "remaining": 523
+    },
+    {
+      "trip": 478,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 241,
+      "remaining": 522
+    },
+    {
+      "trip": 479,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 242,
+      "remaining": 521
+    },
+    {
+      "trip": 480,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 243,
+      "remaining": 520
+    },
+    {
+      "trip": 481,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 244,
+      "remaining": 519
+    },
+    {
+      "trip": 482,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 245,
+      "remaining": 518
+    },
+    {
+      "trip": 483,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 246,
+      "remaining": 517
+    },
+    {
+      "trip": 484,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 247,
+      "remaining": 516
+    },
+    {
+      "trip": 485,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 248,
+      "remaining": 515
+    },
+    {
+      "trip": 486,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 249,
+      "remaining": 514
+    },
+    {
+      "trip": 487,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 250,
+      "remaining": 513
+    },
+    {
+      "trip": 488,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 251,
+      "remaining": 512
+    },
+    {
+      "trip": 489,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 252,
+      "remaining": 511
+    },
+    {
+      "trip": 490,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 253,
+      "remaining": 510
+    },
+    {
+      "trip": 491,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 254,
+      "remaining": 509
+    },
+    {
+      "trip": 492,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 255,
+      "remaining": 508
+    },
+    {
+      "trip": 493,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 256,
+      "remaining": 507
+    },
+    {
+      "trip": 494,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 257,
+      "remaining": 506
+    },
+    {
+      "trip": 495,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 258,
+      "remaining": 505
+    },
+    {
+      "trip": 496,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 259,
+      "remaining": 504
+    },
+    {
+      "trip": 497,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 260,
+      "remaining": 503
+    },
+    {
+      "trip": 498,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 261,
+      "remaining": 502
+    },
+    {
+      "trip": 499,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 262,
+      "remaining": 501
+    },
+    {
+      "trip": 500,
+      "survived": 0,
+      "total_saved": 237,
+      "total_lost": 263,
+      "remaining": 500
+    },
+    {
+      "trip": 501,
+      "survived": 1,
+      "total_saved": 238,
+      "total_lost": 263,
+      "remaining": 499
+    },
+    {
+      "trip": 502,
+      "survived": 0,
+      "total_saved": 238,
+      "total_lost": 264,
+      "remaining": 498
+    },
+    {
+      "trip": 503,
+      "survived": 0,
+      "total_saved": 238,
+      "total_lost": 265,
+      "remaining": 497
+    },
+    {
+      "trip": 504,
+      "survived": 0,
+      "total_saved": 238,
+      "total_lost": 266,
+      "remaining": 496
+    },
+    {
+      "trip": 505,
+      "survived": 0,
+      "total_saved": 238,
+      "total_lost": 267,
+      "remaining": 495
+    },
+    {
+      "trip": 506,
+      "survived": 1,
+      "total_saved": 239,
+      "total_lost": 267,
+      "remaining": 494
+    },
+    {
+      "trip": 507,
+      "survived": 0,
+      "total_saved": 239,
+      "total_lost": 268,
+      "remaining": 493
+    },
+    {
+      "trip": 508,
+      "survived": 1,
+      "total_saved": 240,
+      "total_lost": 268,
+      "remaining": 492
+    },
+    {
+      "trip": 509,
+      "survived": 0,
+      "total_saved": 240,
+      "total_lost": 269,
+      "remaining": 491
+    },
+    {
+      "trip": 510,
+      "survived": 0,
+      "total_saved": 240,
+      "total_lost": 270,
+      "remaining": 490
+    },
+    {
+      "trip": 511,
+      "survived": 0,
+      "total_saved": 240,
+      "total_lost": 271,
+      "remaining": 489
+    },
+    {
+      "trip": 512,
+      "survived": 1,
+      "total_saved": 241,
+      "total_lost": 271,
+      "remaining": 488
+    },
+    {
+      "trip": 513,
+      "survived": 1,
+      "total_saved": 242,
+      "total_lost": 271,
+      "remaining": 487
+    },
+    {
+      "trip": 514,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 272,
+      "remaining": 486
+    },
+    {
+      "trip": 515,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 273,
+      "remaining": 485
+    },
+    {
+      "trip": 516,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 274,
+      "remaining": 484
+    },
+    {
+      "trip": 517,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 275,
+      "remaining": 483
+    },
+    {
+      "trip": 518,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 276,
+      "remaining": 482
+    },
+    {
+      "trip": 519,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 277,
+      "remaining": 481
+    },
+    {
+      "trip": 520,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 278,
+      "remaining": 480
+    },
+    {
+      "trip": 521,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 279,
+      "remaining": 479
+    },
+    {
+      "trip": 522,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 280,
+      "remaining": 478
+    },
+    {
+      "trip": 523,
+      "survived": 0,
+      "total_saved": 242,
+      "total_lost": 281,
+      "remaining": 477
+    },
+    {
+      "trip": 524,
+      "survived": 1,
+      "total_saved": 243,
+      "total_lost": 281,
+      "remaining": 476
+    },
+    {
+      "trip": 525,
+      "survived": 1,
+      "total_saved": 244,
+      "total_lost": 281,
+      "remaining": 475
+    },
+    {
+      "trip": 526,
+      "survived": 0,
+      "total_saved": 244,
+      "total_lost": 282,
+      "remaining": 474
+    },
+    {
+      "trip": 527,
+      "survived": 0,
+      "total_saved": 244,
+      "total_lost": 283,
+      "remaining": 473
+    },
+    {
+      "trip": 528,
+      "survived": 0,
+      "total_saved": 244,
+      "total_lost": 284,
+      "remaining": 472
+    },
+    {
+      "trip": 529,
+      "survived": 1,
+      "total_saved": 245,
+      "total_lost": 284,
+      "remaining": 471
+    },
+    {
+      "trip": 530,
+      "survived": 1,
+      "total_saved": 246,
+      "total_lost": 284,
+      "remaining": 470
+    },
+    {
+      "trip": 531,
+      "survived": 1,
+      "total_saved": 247,
+      "total_lost": 284,
+      "remaining": 469
+    },
+    {
+      "trip": 532,
+      "survived": 1,
+      "total_saved": 248,
+      "total_lost": 284,
+      "remaining": 468
+    },
+    {
+      "trip": 533,
+      "survived": 1,
+      "total_saved": 249,
+      "total_lost": 284,
+      "remaining": 467
+    },
+    {
+      "trip": 534,
+      "survived": 1,
+      "total_saved": 250,
+      "total_lost": 284,
+      "remaining": 466
+    },
+    {
+      "trip": 535,
+      "survived": 1,
+      "total_saved": 251,
+      "total_lost": 284,
+      "remaining": 465
+    },
+    {
+      "trip": 536,
+      "survived": 1,
+      "total_saved": 252,
+      "total_lost": 284,
+      "remaining": 464
+    },
+    {
+      "trip": 537,
+      "survived": 0,
+      "total_saved": 252,
+      "total_lost": 285,
+      "remaining": 463
+    },
+    {
+      "trip": 538,
+      "survived": 0,
+      "total_saved": 252,
+      "total_lost": 286,
+      "remaining": 462
+    },
+    {
+      "trip": 539,
+      "survived": 1,
+      "total_saved": 253,
+      "total_lost": 286,
+      "remaining": 461
+    },
+    {
+      "trip": 540,
+      "survived": 1,
+      "total_saved": 254,
+      "total_lost": 286,
+      "remaining": 460
+    },
+    {
+      "trip": 541,
+      "survived": 1,
+      "total_saved": 255,
+      "total_lost": 286,
+      "remaining": 459
+    },
+    {
+      "trip": 542,
+      "survived": 0,
+      "total_saved": 255,
+      "total_lost": 287,
+      "remaining": 458
+    },
+    {
+      "trip": 543,
+      "survived": 1,
+      "total_saved": 256,
+      "total_lost": 287,
+      "remaining": 457
+    },
+    {
+      "trip": 544,
+      "survived": 1,
+      "total_saved": 257,
+      "total_lost": 287,
+      "remaining": 456
+    },
+    {
+      "trip": 545,
+      "survived": 0,
+      "total_saved": 257,
+      "total_lost": 288,
+      "remaining": 455
+    },
+    {
+      "trip": 546,
+      "survived": 0,
+      "total_saved": 257,
+      "total_lost": 289,
+      "remaining": 454
+    },
+    {
+      "trip": 547,
+      "survived": 1,
+      "total_saved": 258,
+      "total_lost": 289,
+      "remaining": 453
+    },
+    {
+      "trip": 548,
+      "survived": 1,
+      "total_saved": 259,
+      "total_lost": 289,
+      "remaining": 452
+    },
+    {
+      "trip": 549,
+      "survived": 1,
+      "total_saved": 260,
+      "total_lost": 289,
+      "remaining": 451
+    },
+    {
+      "trip": 550,
+      "survived": 1,
+      "total_saved": 261,
+      "total_lost": 289,
+      "remaining": 450
+    },
+    {
+      "trip": 551,
+      "survived": 1,
+      "total_saved": 262,
+      "total_lost": 289,
+      "remaining": 449
+    },
+    {
+      "trip": 552,
+      "survived": 1,
+      "total_saved": 263,
+      "total_lost": 289,
+      "remaining": 448
+    },
+    {
+      "trip": 553,
+      "survived": 0,
+      "total_saved": 263,
+      "total_lost": 290,
+      "remaining": 447
+    },
+    {
+      "trip": 554,
+      "survived": 1,
+      "total_saved": 264,
+      "total_lost": 290,
+      "remaining": 446
+    },
+    {
+      "trip": 555,
+      "survived": 1,
+      "total_saved": 265,
+      "total_lost": 290,
+      "remaining": 445
+    },
+    {
+      "trip": 556,
+      "survived": 1,
+      "total_saved": 266,
+      "total_lost": 290,
+      "remaining": 444
+    },
+    {
+      "trip": 557,
+      "survived": 1,
+      "total_saved": 267,
+      "total_lost": 290,
+      "remaining": 443
+    },
+    {
+      "trip": 558,
+      "survived": 1,
+      "total_saved": 268,
+      "total_lost": 290,
+      "remaining": 442
+    },
+    {
+      "trip": 559,
+      "survived": 1,
+      "total_saved": 269,
+      "total_lost": 290,
+      "remaining": 441
+    },
+    {
+      "trip": 560,
+      "survived": 1,
+      "total_saved": 270,
+      "total_lost": 290,
+      "remaining": 440
+    },
+    {
+      "trip": 561,
+      "survived": 1,
+      "total_saved": 271,
+      "total_lost": 290,
+      "remaining": 439
+    },
+    {
+      "trip": 562,
+      "survived": 1,
+      "total_saved": 272,
+      "total_lost": 290,
+      "remaining": 438
+    },
+    {
+      "trip": 563,
+      "survived": 1,
+      "total_saved": 273,
+      "total_lost": 290,
+      "remaining": 437
+    },
+    {
+      "trip": 564,
+      "survived": 1,
+      "total_saved": 274,
+      "total_lost": 290,
+      "remaining": 436
+    },
+    {
+      "trip": 565,
+      "survived": 1,
+      "total_saved": 275,
+      "total_lost": 290,
+      "remaining": 435
+    },
+    {
+      "trip": 566,
+      "survived": 0,
+      "total_saved": 275,
+      "total_lost": 291,
+      "remaining": 434
+    },
+    {
+      "trip": 567,
+      "survived": 1,
+      "total_saved": 276,
+      "total_lost": 291,
+      "remaining": 433
+    },
+    {
+      "trip": 568,
+      "survived": 1,
+      "total_saved": 277,
+      "total_lost": 291,
+      "remaining": 432
+    },
+    {
+      "trip": 569,
+      "survived": 1,
+      "total_saved": 278,
+      "total_lost": 291,
+      "remaining": 431
+    },
+    {
+      "trip": 570,
+      "survived": 1,
+      "total_saved": 279,
+      "total_lost": 291,
+      "remaining": 430
+    },
+    {
+      "trip": 571,
+      "survived": 1,
+      "total_saved": 280,
+      "total_lost": 291,
+      "remaining": 429
+    },
+    {
+      "trip": 572,
+      "survived": 1,
+      "total_saved": 281,
+      "total_lost": 291,
+      "remaining": 428
+    },
+    {
+      "trip": 573,
+      "survived": 1,
+      "total_saved": 282,
+      "total_lost": 291,
+      "remaining": 427
+    },
+    {
+      "trip": 574,
+      "survived": 1,
+      "total_saved": 283,
+      "total_lost": 291,
+      "remaining": 426
+    },
+    {
+      "trip": 575,
+      "survived": 1,
+      "total_saved": 284,
+      "total_lost": 291,
+      "remaining": 425
+    },
+    {
+      "trip": 576,
+      "survived": 1,
+      "total_saved": 285,
+      "total_lost": 291,
+      "remaining": 424
+    },
+    {
+      "trip": 577,
+      "survived": 1,
+      "total_saved": 286,
+      "total_lost": 291,
+      "remaining": 423
+    },
+    {
+      "trip": 578,
+      "survived": 1,
+      "total_saved": 287,
+      "total_lost": 291,
+      "remaining": 422
+    },
+    {
+      "trip": 579,
+      "survived": 1,
+      "total_saved": 288,
+      "total_lost": 291,
+      "remaining": 421
+    },
+    {
+      "trip": 580,
+      "survived": 1,
+      "total_saved": 289,
+      "total_lost": 291,
+      "remaining": 420
+    },
+    {
+      "trip": 581,
+      "survived": 1,
+      "total_saved": 290,
+      "total_lost": 291,
+      "remaining": 419
+    },
+    {
+      "trip": 582,
+      "survived": 1,
+      "total_saved": 291,
+      "total_lost": 291,
+      "remaining": 418
+    },
+    {
+      "trip": 583,
+      "survived": 1,
+      "total_saved": 292,
+      "total_lost": 291,
+      "remaining": 417
+    },
+    {
+      "trip": 584,
+      "survived": 1,
+      "total_saved": 293,
+      "total_lost": 291,
+      "remaining": 416
+    },
+    {
+      "trip": 585,
+      "survived": 1,
+      "total_saved": 294,
+      "total_lost": 291,
+      "remaining": 415
+    },
+    {
+      "trip": 586,
+      "survived": 1,
+      "total_saved": 295,
+      "total_lost": 291,
+      "remaining": 414
+    },
+    {
+      "trip": 587,
+      "survived": 1,
+      "total_saved": 296,
+      "total_lost": 291,
+      "remaining": 413
+    },
+    {
+      "trip": 588,
+      "survived": 1,
+      "total_saved": 297,
+      "total_lost": 291,
+      "remaining": 412
+    },
+    {
+      "trip": 589,
+      "survived": 1,
+      "total_saved": 298,
+      "total_lost": 291,
+      "remaining": 411
+    },
+    {
+      "trip": 590,
+      "survived": 1,
+      "total_saved": 299,
+      "total_lost": 291,
+      "remaining": 410
+    },
+    {
+      "trip": 591,
+      "survived": 1,
+      "total_saved": 300,
+      "total_lost": 291,
+      "remaining": 409
+    },
+    {
+      "trip": 592,
+      "survived": 1,
+      "total_saved": 301,
+      "total_lost": 291,
+      "remaining": 408
+    },
+    {
+      "trip": 593,
+      "survived": 1,
+      "total_saved": 302,
+      "total_lost": 291,
+      "remaining": 407
+    },
+    {
+      "trip": 594,
+      "survived": 1,
+      "total_saved": 303,
+      "total_lost": 291,
+      "remaining": 406
+    },
+    {
+      "trip": 595,
+      "survived": 1,
+      "total_saved": 304,
+      "total_lost": 291,
+      "remaining": 405
+    },
+    {
+      "trip": 596,
+      "survived": 1,
+      "total_saved": 305,
+      "total_lost": 291,
+      "remaining": 404
+    },
+    {
+      "trip": 597,
+      "survived": 1,
+      "total_saved": 306,
+      "total_lost": 291,
+      "remaining": 403
+    },
+    {
+      "trip": 598,
+      "survived": 1,
+      "total_saved": 307,
+      "total_lost": 291,
+      "remaining": 402
+    },
+    {
+      "trip": 599,
+      "survived": 1,
+      "total_saved": 308,
+      "total_lost": 291,
+      "remaining": 401
+    },
+    {
+      "trip": 600,
+      "survived": 1,
+      "total_saved": 309,
+      "total_lost": 291,
+      "remaining": 400
+    },
+    {
+      "trip": 601,
+      "survived": 1,
+      "total_saved": 310,
+      "total_lost": 291,
+      "remaining": 399
+    },
+    {
+      "trip": 602,
+      "survived": 0,
+      "total_saved": 310,
+      "total_lost": 292,
+      "remaining": 398
+    },
+    {
+      "trip": 603,
+      "survived": 1,
+      "total_saved": 311,
+      "total_lost": 292,
+      "remaining": 397
+    },
+    {
+      "trip": 604,
+      "survived": 1,
+      "total_saved": 312,
+      "total_lost": 292,
+      "remaining": 396
+    },
+    {
+      "trip": 605,
+      "survived": 1,
+      "total_saved": 313,
+      "total_lost": 292,
+      "remaining": 395
+    },
+    {
+      "trip": 606,
+      "survived": 1,
+      "total_saved": 314,
+      "total_lost": 292,
+      "remaining": 394
+    },
+    {
+      "trip": 607,
+      "survived": 1,
+      "total_saved": 315,
+      "total_lost": 292,
+      "remaining": 393
+    },
+    {
+      "trip": 608,
+      "survived": 1,
+      "total_saved": 316,
+      "total_lost": 292,
+      "remaining": 392
+    },
+    {
+      "trip": 609,
+      "survived": 0,
+      "total_saved": 316,
+      "total_lost": 293,
+      "remaining": 391
+    },
+    {
+      "trip": 610,
+      "survived": 1,
+      "total_saved": 317,
+      "total_lost": 293,
+      "remaining": 390
+    },
+    {
+      "trip": 611,
+      "survived": 0,
+      "total_saved": 317,
+      "total_lost": 294,
+      "remaining": 389
+    },
+    {
+      "trip": 612,
+      "survived": 1,
+      "total_saved": 318,
+      "total_lost": 294,
+      "remaining": 388
+    },
+    {
+      "trip": 613,
+      "survived": 1,
+      "total_saved": 319,
+      "total_lost": 294,
+      "remaining": 387
+    },
+    {
+      "trip": 614,
+      "survived": 1,
+      "total_saved": 320,
+      "total_lost": 294,
+      "remaining": 386
+    },
+    {
+      "trip": 615,
+      "survived": 1,
+      "total_saved": 321,
+      "total_lost": 294,
+      "remaining": 385
+    },
+    {
+      "trip": 616,
+      "survived": 1,
+      "total_saved": 322,
+      "total_lost": 294,
+      "remaining": 384
+    },
+    {
+      "trip": 617,
+      "survived": 1,
+      "total_saved": 323,
+      "total_lost": 294,
+      "remaining": 383
+    },
+    {
+      "trip": 618,
+      "survived": 1,
+      "total_saved": 324,
+      "total_lost": 294,
+      "remaining": 382
+    },
+    {
+      "trip": 619,
+      "survived": 1,
+      "total_saved": 325,
+      "total_lost": 294,
+      "remaining": 381
+    },
+    {
+      "trip": 620,
+      "survived": 1,
+      "total_saved": 326,
+      "total_lost": 294,
+      "remaining": 380
+    },
+    {
+      "trip": 621,
+      "survived": 1,
+      "total_saved": 327,
+      "total_lost": 294,
+      "remaining": 379
+    },
+    {
+      "trip": 622,
+      "survived": 1,
+      "total_saved": 328,
+      "total_lost": 294,
+      "remaining": 378
+    },
+    {
+      "trip": 623,
+      "survived": 0,
+      "total_saved": 328,
+      "total_lost": 295,
+      "remaining": 377
+    },
+    {
+      "trip": 624,
+      "survived": 0,
+      "total_saved": 328,
+      "total_lost": 296,
+      "remaining": 376
+    },
+    {
+      "trip": 625,
+      "survived": 0,
+      "total_saved": 328,
+      "total_lost": 297,
+      "remaining": 375
+    },
+    {
+      "trip": 626,
+      "survived": 1,
+      "total_saved": 329,
+      "total_lost": 297,
+      "remaining": 374
+    },
+    {
+      "trip": 627,
+      "survived": 0,
+      "total_saved": 329,
+      "total_lost": 298,
+      "remaining": 373
+    },
+    {
+      "trip": 628,
+      "survived": 0,
+      "total_saved": 329,
+      "total_lost": 299,
+      "remaining": 372
+    },
+    {
+      "trip": 629,
+      "survived": 1,
+      "total_saved": 330,
+      "total_lost": 299,
+      "remaining": 371
+    },
+    {
+      "trip": 630,
+      "survived": 0,
+      "total_saved": 330,
+      "total_lost": 300,
+      "remaining": 370
+    },
+    {
+      "trip": 631,
+      "survived": 1,
+      "total_saved": 331,
+      "total_lost": 300,
+      "remaining": 369
+    },
+    {
+      "trip": 632,
+      "survived": 0,
+      "total_saved": 331,
+      "total_lost": 301,
+      "remaining": 368
+    },
+    {
+      "trip": 633,
+      "survived": 1,
+      "total_saved": 332,
+      "total_lost": 301,
+      "remaining": 367
+    },
+    {
+      "trip": 634,
+      "survived": 0,
+      "total_saved": 332,
+      "total_lost": 302,
+      "remaining": 366
+    },
+    {
+      "trip": 635,
+      "survived": 1,
+      "total_saved": 333,
+      "total_lost": 302,
+      "remaining": 365
+    },
+    {
+      "trip": 636,
+      "survived": 0,
+      "total_saved": 333,
+      "total_lost": 303,
+      "remaining": 364
+    },
+    {
+      "trip": 637,
+      "survived": 0,
+      "total_saved": 333,
+      "total_lost": 304,
+      "remaining": 363
+    },
+    {
+      "trip": 638,
+      "survived": 0,
+      "total_saved": 333,
+      "total_lost": 305,
+      "remaining": 362
+    },
+    {
+      "trip": 639,
+      "survived": 1,
+      "total_saved": 334,
+      "total_lost": 305,
+      "remaining": 361
+    },
+    {
+      "trip": 640,
+      "survived": 0,
+      "total_saved": 334,
+      "total_lost": 306,
+      "remaining": 360
+    },
+    {
+      "trip": 641,
+      "survived": 0,
+      "total_saved": 334,
+      "total_lost": 307,
+      "remaining": 359
+    },
+    {
+      "trip": 642,
+      "survived": 1,
+      "total_saved": 335,
+      "total_lost": 307,
+      "remaining": 358
+    },
+    {
+      "trip": 643,
+      "survived": 1,
+      "total_saved": 336,
+      "total_lost": 307,
+      "remaining": 357
+    },
+    {
+      "trip": 644,
+      "survived": 0,
+      "total_saved": 336,
+      "total_lost": 308,
+      "remaining": 356
+    },
+    {
+      "trip": 645,
+      "survived": 1,
+      "total_saved": 337,
+      "total_lost": 308,
+      "remaining": 355
+    },
+    {
+      "trip": 646,
+      "survived": 0,
+      "total_saved": 337,
+      "total_lost": 309,
+      "remaining": 354
+    },
+    {
+      "trip": 647,
+      "survived": 0,
+      "total_saved": 337,
+      "total_lost": 310,
+      "remaining": 353
+    },
+    {
+      "trip": 648,
+      "survived": 0,
+      "total_saved": 337,
+      "total_lost": 311,
+      "remaining": 352
+    },
+    {
+      "trip": 649,
+      "survived": 1,
+      "total_saved": 338,
+      "total_lost": 311,
+      "remaining": 351
+    },
+    {
+      "trip": 650,
+      "survived": 0,
+      "total_saved": 338,
+      "total_lost": 312,
+      "remaining": 350
+    },
+    {
+      "trip": 651,
+      "survived": 0,
+      "total_saved": 338,
+      "total_lost": 313,
+      "remaining": 349
+    },
+    {
+      "trip": 652,
+      "survived": 0,
+      "total_saved": 338,
+      "total_lost": 314,
+      "remaining": 348
+    },
+    {
+      "trip": 653,
+      "survived": 0,
+      "total_saved": 338,
+      "total_lost": 315,
+      "remaining": 347
+    },
+    {
+      "trip": 654,
+      "survived": 1,
+      "total_saved": 339,
+      "total_lost": 315,
+      "remaining": 346
+    },
+    {
+      "trip": 655,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 316,
+      "remaining": 345
+    },
+    {
+      "trip": 656,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 317,
+      "remaining": 344
+    },
+    {
+      "trip": 657,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 318,
+      "remaining": 343
+    },
+    {
+      "trip": 658,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 319,
+      "remaining": 342
+    },
+    {
+      "trip": 659,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 320,
+      "remaining": 341
+    },
+    {
+      "trip": 660,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 321,
+      "remaining": 340
+    },
+    {
+      "trip": 661,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 322,
+      "remaining": 339
+    },
+    {
+      "trip": 662,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 323,
+      "remaining": 338
+    },
+    {
+      "trip": 663,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 324,
+      "remaining": 337
+    },
+    {
+      "trip": 664,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 325,
+      "remaining": 336
+    },
+    {
+      "trip": 665,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 326,
+      "remaining": 335
+    },
+    {
+      "trip": 666,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 327,
+      "remaining": 334
+    },
+    {
+      "trip": 667,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 328,
+      "remaining": 333
+    },
+    {
+      "trip": 668,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 329,
+      "remaining": 332
+    },
+    {
+      "trip": 669,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 330,
+      "remaining": 331
+    },
+    {
+      "trip": 670,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 331,
+      "remaining": 330
+    },
+    {
+      "trip": 671,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 332,
+      "remaining": 329
+    },
+    {
+      "trip": 672,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 333,
+      "remaining": 328
+    },
+    {
+      "trip": 673,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 334,
+      "remaining": 327
+    },
+    {
+      "trip": 674,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 335,
+      "remaining": 326
+    },
+    {
+      "trip": 675,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 336,
+      "remaining": 325
+    },
+    {
+      "trip": 676,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 337,
+      "remaining": 324
+    },
+    {
+      "trip": 677,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 338,
+      "remaining": 323
+    },
+    {
+      "trip": 678,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 339,
+      "remaining": 322
+    },
+    {
+      "trip": 679,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 340,
+      "remaining": 321
+    },
+    {
+      "trip": 680,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 341,
+      "remaining": 320
+    },
+    {
+      "trip": 681,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 342,
+      "remaining": 319
+    },
+    {
+      "trip": 682,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 343,
+      "remaining": 318
+    },
+    {
+      "trip": 683,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 344,
+      "remaining": 317
+    },
+    {
+      "trip": 684,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 345,
+      "remaining": 316
+    },
+    {
+      "trip": 685,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 346,
+      "remaining": 315
+    },
+    {
+      "trip": 686,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 347,
+      "remaining": 314
+    },
+    {
+      "trip": 687,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 348,
+      "remaining": 313
+    },
+    {
+      "trip": 688,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 349,
+      "remaining": 312
+    },
+    {
+      "trip": 689,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 350,
+      "remaining": 311
+    },
+    {
+      "trip": 690,
+      "survived": 0,
+      "total_saved": 339,
+      "total_lost": 351,
+      "remaining": 310
+    },
+    {
+      "trip": 691,
+      "survived": 1,
+      "total_saved": 340,
+      "total_lost": 351,
+      "remaining": 309
+    },
+    {
+      "trip": 692,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 352,
+      "remaining": 308
+    },
+    {
+      "trip": 693,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 353,
+      "remaining": 307
+    },
+    {
+      "trip": 694,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 354,
+      "remaining": 306
+    },
+    {
+      "trip": 695,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 355,
+      "remaining": 305
+    },
+    {
+      "trip": 696,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 356,
+      "remaining": 304
+    },
+    {
+      "trip": 697,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 357,
+      "remaining": 303
+    },
+    {
+      "trip": 698,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 358,
+      "remaining": 302
+    },
+    {
+      "trip": 699,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 359,
+      "remaining": 301
+    },
+    {
+      "trip": 700,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 360,
+      "remaining": 300
+    },
+    {
+      "trip": 701,
+      "survived": 0,
+      "total_saved": 340,
+      "total_lost": 361,
+      "remaining": 299
+    },
+    {
+      "trip": 702,
+      "survived": 1,
+      "total_saved": 341,
+      "total_lost": 361,
+      "remaining": 298
+    },
+    {
+      "trip": 703,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 362,
+      "remaining": 297
+    },
+    {
+      "trip": 704,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 363,
+      "remaining": 296
+    },
+    {
+      "trip": 705,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 364,
+      "remaining": 295
+    },
+    {
+      "trip": 706,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 365,
+      "remaining": 294
+    },
+    {
+      "trip": 707,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 366,
+      "remaining": 293
+    },
+    {
+      "trip": 708,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 367,
+      "remaining": 292
+    },
+    {
+      "trip": 709,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 368,
+      "remaining": 291
+    },
+    {
+      "trip": 710,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 369,
+      "remaining": 290
+    },
+    {
+      "trip": 711,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 370,
+      "remaining": 289
+    },
+    {
+      "trip": 712,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 371,
+      "remaining": 288
+    },
+    {
+      "trip": 713,
+      "survived": 0,
+      "total_saved": 341,
+      "total_lost": 372,
+      "remaining": 287
+    },
+    {
+      "trip": 714,
+      "survived": 1,
+      "total_saved": 342,
+      "total_lost": 372,
+      "remaining": 286
+    },
+    {
+      "trip": 715,
+      "survived": 0,
+      "total_saved": 342,
+      "total_lost": 373,
+      "remaining": 285
+    },
+    {
+      "trip": 716,
+      "survived": 0,
+      "total_saved": 342,
+      "total_lost": 374,
+      "remaining": 284
+    },
+    {
+      "trip": 717,
+      "survived": 1,
+      "total_saved": 343,
+      "total_lost": 374,
+      "remaining": 283
+    },
+    {
+      "trip": 718,
+      "survived": 0,
+      "total_saved": 343,
+      "total_lost": 375,
+      "remaining": 282
+    },
+    {
+      "trip": 719,
+      "survived": 1,
+      "total_saved": 344,
+      "total_lost": 375,
+      "remaining": 281
+    },
+    {
+      "trip": 720,
+      "survived": 0,
+      "total_saved": 344,
+      "total_lost": 376,
+      "remaining": 280
+    },
+    {
+      "trip": 721,
+      "survived": 0,
+      "total_saved": 344,
+      "total_lost": 377,
+      "remaining": 279
+    },
+    {
+      "trip": 722,
+      "survived": 0,
+      "total_saved": 344,
+      "total_lost": 378,
+      "remaining": 278
+    },
+    {
+      "trip": 723,
+      "survived": 0,
+      "total_saved": 344,
+      "total_lost": 379,
+      "remaining": 277
+    },
+    {
+      "trip": 724,
+      "survived": 1,
+      "total_saved": 345,
+      "total_lost": 379,
+      "remaining": 276
+    },
+    {
+      "trip": 725,
+      "survived": 1,
+      "total_saved": 346,
+      "total_lost": 379,
+      "remaining": 275
+    },
+    {
+      "trip": 726,
+      "survived": 1,
+      "total_saved": 347,
+      "total_lost": 379,
+      "remaining": 274
+    },
+    {
+      "trip": 727,
+      "survived": 0,
+      "total_saved": 347,
+      "total_lost": 380,
+      "remaining": 273
+    },
+    {
+      "trip": 728,
+      "survived": 0,
+      "total_saved": 347,
+      "total_lost": 381,
+      "remaining": 272
+    },
+    {
+      "trip": 729,
+      "survived": 1,
+      "total_saved": 348,
+      "total_lost": 381,
+      "remaining": 271
+    },
+    {
+      "trip": 730,
+      "survived": 1,
+      "total_saved": 349,
+      "total_lost": 381,
+      "remaining": 270
+    },
+    {
+      "trip": 731,
+      "survived": 1,
+      "total_saved": 350,
+      "total_lost": 381,
+      "remaining": 269
+    },
+    {
+      "trip": 732,
+      "survived": 1,
+      "total_saved": 351,
+      "total_lost": 381,
+      "remaining": 268
+    },
+    {
+      "trip": 733,
+      "survived": 0,
+      "total_saved": 351,
+      "total_lost": 382,
+      "remaining": 267
+    },
+    {
+      "trip": 734,
+      "survived": 1,
+      "total_saved": 352,
+      "total_lost": 382,
+      "remaining": 266
+    },
+    {
+      "trip": 735,
+      "survived": 1,
+      "total_saved": 353,
+      "total_lost": 382,
+      "remaining": 265
+    },
+    {
+      "trip": 736,
+      "survived": 1,
+      "total_saved": 354,
+      "total_lost": 382,
+      "remaining": 264
+    },
+    {
+      "trip": 737,
+      "survived": 0,
+      "total_saved": 354,
+      "total_lost": 383,
+      "remaining": 263
+    },
+    {
+      "trip": 738,
+      "survived": 1,
+      "total_saved": 355,
+      "total_lost": 383,
+      "remaining": 262
+    },
+    {
+      "trip": 739,
+      "survived": 1,
+      "total_saved": 356,
+      "total_lost": 383,
+      "remaining": 261
+    },
+    {
+      "trip": 740,
+      "survived": 1,
+      "total_saved": 357,
+      "total_lost": 383,
+      "remaining": 260
+    },
+    {
+      "trip": 741,
+      "survived": 1,
+      "total_saved": 358,
+      "total_lost": 383,
+      "remaining": 259
+    },
+    {
+      "trip": 742,
+      "survived": 1,
+      "total_saved": 359,
+      "total_lost": 383,
+      "remaining": 258
+    },
+    {
+      "trip": 743,
+      "survived": 1,
+      "total_saved": 360,
+      "total_lost": 383,
+      "remaining": 257
+    },
+    {
+      "trip": 744,
+      "survived": 1,
+      "total_saved": 361,
+      "total_lost": 383,
+      "remaining": 256
+    },
+    {
+      "trip": 745,
+      "survived": 0,
+      "total_saved": 361,
+      "total_lost": 384,
+      "remaining": 255
+    },
+    {
+      "trip": 746,
+      "survived": 1,
+      "total_saved": 362,
+      "total_lost": 384,
+      "remaining": 254
+    },
+    {
+      "trip": 747,
+      "survived": 1,
+      "total_saved": 363,
+      "total_lost": 384,
+      "remaining": 253
+    },
+    {
+      "trip": 748,
+      "survived": 1,
+      "total_saved": 364,
+      "total_lost": 384,
+      "remaining": 252
+    },
+    {
+      "trip": 749,
+      "survived": 1,
+      "total_saved": 365,
+      "total_lost": 384,
+      "remaining": 251
+    },
+    {
+      "trip": 750,
+      "survived": 1,
+      "total_saved": 366,
+      "total_lost": 384,
+      "remaining": 250
+    },
+    {
+      "trip": 751,
+      "survived": 1,
+      "total_saved": 367,
+      "total_lost": 384,
+      "remaining": 249
+    },
+    {
+      "trip": 752,
+      "survived": 0,
+      "total_saved": 367,
+      "total_lost": 385,
+      "remaining": 248
+    },
+    {
+      "trip": 753,
+      "survived": 1,
+      "total_saved": 368,
+      "total_lost": 385,
+      "remaining": 247
+    },
+    {
+      "trip": 754,
+      "survived": 1,
+      "total_saved": 369,
+      "total_lost": 385,
+      "remaining": 246
+    },
+    {
+      "trip": 755,
+      "survived": 1,
+      "total_saved": 370,
+      "total_lost": 385,
+      "remaining": 245
+    },
+    {
+      "trip": 756,
+      "survived": 1,
+      "total_saved": 371,
+      "total_lost": 385,
+      "remaining": 244
+    },
+    {
+      "trip": 757,
+      "survived": 1,
+      "total_saved": 372,
+      "total_lost": 385,
+      "remaining": 243
+    },
+    {
+      "trip": 758,
+      "survived": 1,
+      "total_saved": 373,
+      "total_lost": 385,
+      "remaining": 242
+    },
+    {
+      "trip": 759,
+      "survived": 0,
+      "total_saved": 373,
+      "total_lost": 386,
+      "remaining": 241
+    },
+    {
+      "trip": 760,
+      "survived": 1,
+      "total_saved": 374,
+      "total_lost": 386,
+      "remaining": 240
+    },
+    {
+      "trip": 761,
+      "survived": 1,
+      "total_saved": 375,
+      "total_lost": 386,
+      "remaining": 239
+    },
+    {
+      "trip": 762,
+      "survived": 1,
+      "total_saved": 376,
+      "total_lost": 386,
+      "remaining": 238
+    },
+    {
+      "trip": 763,
+      "survived": 1,
+      "total_saved": 377,
+      "total_lost": 386,
+      "remaining": 237
+    },
+    {
+      "trip": 764,
+      "survived": 1,
+      "total_saved": 378,
+      "total_lost": 386,
+      "remaining": 236
+    },
+    {
+      "trip": 765,
+      "survived": 1,
+      "total_saved": 379,
+      "total_lost": 386,
+      "remaining": 235
+    },
+    {
+      "trip": 766,
+      "survived": 1,
+      "total_saved": 380,
+      "total_lost": 386,
+      "remaining": 234
+    },
+    {
+      "trip": 767,
+      "survived": 1,
+      "total_saved": 381,
+      "total_lost": 386,
+      "remaining": 233
+    },
+    {
+      "trip": 768,
+      "survived": 1,
+      "total_saved": 382,
+      "total_lost": 386,
+      "remaining": 232
+    },
+    {
+      "trip": 769,
+      "survived": 1,
+      "total_saved": 383,
+      "total_lost": 386,
+      "remaining": 231
+    },
+    {
+      "trip": 770,
+      "survived": 1,
+      "total_saved": 384,
+      "total_lost": 386,
+      "remaining": 230
+    },
+    {
+      "trip": 771,
+      "survived": 1,
+      "total_saved": 385,
+      "total_lost": 386,
+      "remaining": 229
+    },
+    {
+      "trip": 772,
+      "survived": 1,
+      "total_saved": 386,
+      "total_lost": 386,
+      "remaining": 228
+    },
+    {
+      "trip": 773,
+      "survived": 1,
+      "total_saved": 387,
+      "total_lost": 386,
+      "remaining": 227
+    },
+    {
+      "trip": 774,
+      "survived": 1,
+      "total_saved": 388,
+      "total_lost": 386,
+      "remaining": 226
+    },
+    {
+      "trip": 775,
+      "survived": 1,
+      "total_saved": 389,
+      "total_lost": 386,
+      "remaining": 225
+    },
+    {
+      "trip": 776,
+      "survived": 1,
+      "total_saved": 390,
+      "total_lost": 386,
+      "remaining": 224
+    },
+    {
+      "trip": 777,
+      "survived": 1,
+      "total_saved": 391,
+      "total_lost": 386,
+      "remaining": 223
+    },
+    {
+      "trip": 778,
+      "survived": 1,
+      "total_saved": 392,
+      "total_lost": 386,
+      "remaining": 222
+    },
+    {
+      "trip": 779,
+      "survived": 1,
+      "total_saved": 393,
+      "total_lost": 386,
+      "remaining": 221
+    },
+    {
+      "trip": 780,
+      "survived": 1,
+      "total_saved": 394,
+      "total_lost": 386,
+      "remaining": 220
+    },
+    {
+      "trip": 781,
+      "survived": 1,
+      "total_saved": 395,
+      "total_lost": 386,
+      "remaining": 219
+    },
+    {
+      "trip": 782,
+      "survived": 1,
+      "total_saved": 396,
+      "total_lost": 386,
+      "remaining": 218
+    },
+    {
+      "trip": 783,
+      "survived": 1,
+      "total_saved": 397,
+      "total_lost": 386,
+      "remaining": 217
+    },
+    {
+      "trip": 784,
+      "survived": 1,
+      "total_saved": 398,
+      "total_lost": 386,
+      "remaining": 216
+    },
+    {
+      "trip": 785,
+      "survived": 1,
+      "total_saved": 399,
+      "total_lost": 386,
+      "remaining": 215
+    },
+    {
+      "trip": 786,
+      "survived": 1,
+      "total_saved": 400,
+      "total_lost": 386,
+      "remaining": 214
+    },
+    {
+      "trip": 787,
+      "survived": 1,
+      "total_saved": 401,
+      "total_lost": 386,
+      "remaining": 213
+    },
+    {
+      "trip": 788,
+      "survived": 1,
+      "total_saved": 402,
+      "total_lost": 386,
+      "remaining": 212
+    },
+    {
+      "trip": 789,
+      "survived": 1,
+      "total_saved": 403,
+      "total_lost": 386,
+      "remaining": 211
+    },
+    {
+      "trip": 790,
+      "survived": 1,
+      "total_saved": 404,
+      "total_lost": 386,
+      "remaining": 210
+    },
+    {
+      "trip": 791,
+      "survived": 1,
+      "total_saved": 405,
+      "total_lost": 386,
+      "remaining": 209
+    },
+    {
+      "trip": 792,
+      "survived": 1,
+      "total_saved": 406,
+      "total_lost": 386,
+      "remaining": 208
+    },
+    {
+      "trip": 793,
+      "survived": 1,
+      "total_saved": 407,
+      "total_lost": 386,
+      "remaining": 207
+    },
+    {
+      "trip": 794,
+      "survived": 1,
+      "total_saved": 408,
+      "total_lost": 386,
+      "remaining": 206
+    },
+    {
+      "trip": 795,
+      "survived": 1,
+      "total_saved": 409,
+      "total_lost": 386,
+      "remaining": 205
+    },
+    {
+      "trip": 796,
+      "survived": 1,
+      "total_saved": 410,
+      "total_lost": 386,
+      "remaining": 204
+    },
+    {
+      "trip": 797,
+      "survived": 1,
+      "total_saved": 411,
+      "total_lost": 386,
+      "remaining": 203
+    },
+    {
+      "trip": 798,
+      "survived": 1,
+      "total_saved": 412,
+      "total_lost": 386,
+      "remaining": 202
+    },
+    {
+      "trip": 799,
+      "survived": 1,
+      "total_saved": 413,
+      "total_lost": 386,
+      "remaining": 201
+    },
+    {
+      "trip": 800,
+      "survived": 1,
+      "total_saved": 414,
+      "total_lost": 386,
+      "remaining": 200
+    },
+    {
+      "trip": 801,
+      "survived": 1,
+      "total_saved": 415,
+      "total_lost": 386,
+      "remaining": 199
+    },
+    {
+      "trip": 802,
+      "survived": 0,
+      "total_saved": 415,
+      "total_lost": 387,
+      "remaining": 198
+    },
+    {
+      "trip": 803,
+      "survived": 1,
+      "total_saved": 416,
+      "total_lost": 387,
+      "remaining": 197
+    },
+    {
+      "trip": 804,
+      "survived": 1,
+      "total_saved": 417,
+      "total_lost": 387,
+      "remaining": 196
+    },
+    {
+      "trip": 805,
+      "survived": 1,
+      "total_saved": 418,
+      "total_lost": 387,
+      "remaining": 195
+    },
+    {
+      "trip": 806,
+      "survived": 1,
+      "total_saved": 419,
+      "total_lost": 387,
+      "remaining": 194
+    },
+    {
+      "trip": 807,
+      "survived": 1,
+      "total_saved": 420,
+      "total_lost": 387,
+      "remaining": 193
+    },
+    {
+      "trip": 808,
+      "survived": 1,
+      "total_saved": 421,
+      "total_lost": 387,
+      "remaining": 192
+    },
+    {
+      "trip": 809,
+      "survived": 1,
+      "total_saved": 422,
+      "total_lost": 387,
+      "remaining": 191
+    },
+    {
+      "trip": 810,
+      "survived": 1,
+      "total_saved": 423,
+      "total_lost": 387,
+      "remaining": 190
+    },
+    {
+      "trip": 811,
+      "survived": 1,
+      "total_saved": 424,
+      "total_lost": 387,
+      "remaining": 189
+    },
+    {
+      "trip": 812,
+      "survived": 1,
+      "total_saved": 425,
+      "total_lost": 387,
+      "remaining": 188
+    },
+    {
+      "trip": 813,
+      "survived": 1,
+      "total_saved": 426,
+      "total_lost": 387,
+      "remaining": 187
+    },
+    {
+      "trip": 814,
+      "survived": 1,
+      "total_saved": 427,
+      "total_lost": 387,
+      "remaining": 186
+    },
+    {
+      "trip": 815,
+      "survived": 1,
+      "total_saved": 428,
+      "total_lost": 387,
+      "remaining": 185
+    },
+    {
+      "trip": 816,
+      "survived": 0,
+      "total_saved": 428,
+      "total_lost": 388,
+      "remaining": 184
+    },
+    {
+      "trip": 817,
+      "survived": 1,
+      "total_saved": 429,
+      "total_lost": 388,
+      "remaining": 183
+    },
+    {
+      "trip": 818,
+      "survived": 0,
+      "total_saved": 429,
+      "total_lost": 389,
+      "remaining": 182
+    },
+    {
+      "trip": 819,
+      "survived": 1,
+      "total_saved": 430,
+      "total_lost": 389,
+      "remaining": 181
+    },
+    {
+      "trip": 820,
+      "survived": 0,
+      "total_saved": 430,
+      "total_lost": 390,
+      "remaining": 180
+    },
+    {
+      "trip": 821,
+      "survived": 1,
+      "total_saved": 431,
+      "total_lost": 390,
+      "remaining": 179
+    },
+    {
+      "trip": 822,
+      "survived": 1,
+      "total_saved": 432,
+      "total_lost": 390,
+      "remaining": 178
+    },
+    {
+      "trip": 823,
+      "survived": 0,
+      "total_saved": 432,
+      "total_lost": 391,
+      "remaining": 177
+    },
+    {
+      "trip": 824,
+      "survived": 0,
+      "total_saved": 432,
+      "total_lost": 392,
+      "remaining": 176
+    },
+    {
+      "trip": 825,
+      "survived": 1,
+      "total_saved": 433,
+      "total_lost": 392,
+      "remaining": 175
+    },
+    {
+      "trip": 826,
+      "survived": 1,
+      "total_saved": 434,
+      "total_lost": 392,
+      "remaining": 174
+    },
+    {
+      "trip": 827,
+      "survived": 0,
+      "total_saved": 434,
+      "total_lost": 393,
+      "remaining": 173
+    },
+    {
+      "trip": 828,
+      "survived": 0,
+      "total_saved": 434,
+      "total_lost": 394,
+      "remaining": 172
+    },
+    {
+      "trip": 829,
+      "survived": 1,
+      "total_saved": 435,
+      "total_lost": 394,
+      "remaining": 171
+    },
+    {
+      "trip": 830,
+      "survived": 0,
+      "total_saved": 435,
+      "total_lost": 395,
+      "remaining": 170
+    },
+    {
+      "trip": 831,
+      "survived": 0,
+      "total_saved": 435,
+      "total_lost": 396,
+      "remaining": 169
+    },
+    {
+      "trip": 832,
+      "survived": 0,
+      "total_saved": 435,
+      "total_lost": 397,
+      "remaining": 168
+    },
+    {
+      "trip": 833,
+      "survived": 0,
+      "total_saved": 435,
+      "total_lost": 398,
+      "remaining": 167
+    },
+    {
+      "trip": 834,
+      "survived": 0,
+      "total_saved": 435,
+      "total_lost": 399,
+      "remaining": 166
+    },
+    {
+      "trip": 835,
+      "survived": 1,
+      "total_saved": 436,
+      "total_lost": 399,
+      "remaining": 165
+    },
+    {
+      "trip": 836,
+      "survived": 1,
+      "total_saved": 437,
+      "total_lost": 399,
+      "remaining": 164
+    },
+    {
+      "trip": 837,
+      "survived": 1,
+      "total_saved": 438,
+      "total_lost": 399,
+      "remaining": 163
+    },
+    {
+      "trip": 838,
+      "survived": 0,
+      "total_saved": 438,
+      "total_lost": 400,
+      "remaining": 162
+    },
+    {
+      "trip": 839,
+      "survived": 1,
+      "total_saved": 439,
+      "total_lost": 400,
+      "remaining": 161
+    },
+    {
+      "trip": 840,
+      "survived": 0,
+      "total_saved": 439,
+      "total_lost": 401,
+      "remaining": 160
+    },
+    {
+      "trip": 841,
+      "survived": 0,
+      "total_saved": 439,
+      "total_lost": 402,
+      "remaining": 159
+    },
+    {
+      "trip": 842,
+      "survived": 0,
+      "total_saved": 439,
+      "total_lost": 403,
+      "remaining": 158
+    },
+    {
+      "trip": 843,
+      "survived": 0,
+      "total_saved": 439,
+      "total_lost": 404,
+      "remaining": 157
+    },
+    {
+      "trip": 844,
+      "survived": 1,
+      "total_saved": 440,
+      "total_lost": 404,
+      "remaining": 156
+    },
+    {
+      "trip": 845,
+      "survived": 0,
+      "total_saved": 440,
+      "total_lost": 405,
+      "remaining": 155
+    },
+    {
+      "trip": 846,
+      "survived": 1,
+      "total_saved": 441,
+      "total_lost": 405,
+      "remaining": 154
+    },
+    {
+      "trip": 847,
+      "survived": 0,
+      "total_saved": 441,
+      "total_lost": 406,
+      "remaining": 153
+    },
+    {
+      "trip": 848,
+      "survived": 1,
+      "total_saved": 442,
+      "total_lost": 406,
+      "remaining": 152
+    },
+    {
+      "trip": 849,
+      "survived": 0,
+      "total_saved": 442,
+      "total_lost": 407,
+      "remaining": 151
+    },
+    {
+      "trip": 850,
+      "survived": 1,
+      "total_saved": 443,
+      "total_lost": 407,
+      "remaining": 150
+    },
+    {
+      "trip": 851,
+      "survived": 1,
+      "total_saved": 444,
+      "total_lost": 407,
+      "remaining": 149
+    },
+    {
+      "trip": 852,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 408,
+      "remaining": 148
+    },
+    {
+      "trip": 853,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 409,
+      "remaining": 147
+    },
+    {
+      "trip": 854,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 410,
+      "remaining": 146
+    },
+    {
+      "trip": 855,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 411,
+      "remaining": 145
+    },
+    {
+      "trip": 856,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 412,
+      "remaining": 144
+    },
+    {
+      "trip": 857,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 413,
+      "remaining": 143
+    },
+    {
+      "trip": 858,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 414,
+      "remaining": 142
+    },
+    {
+      "trip": 859,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 415,
+      "remaining": 141
+    },
+    {
+      "trip": 860,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 416,
+      "remaining": 140
+    },
+    {
+      "trip": 861,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 417,
+      "remaining": 139
+    },
+    {
+      "trip": 862,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 418,
+      "remaining": 138
+    },
+    {
+      "trip": 863,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 419,
+      "remaining": 137
+    },
+    {
+      "trip": 864,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 420,
+      "remaining": 136
+    },
+    {
+      "trip": 865,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 421,
+      "remaining": 135
+    },
+    {
+      "trip": 866,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 422,
+      "remaining": 134
+    },
+    {
+      "trip": 867,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 423,
+      "remaining": 133
+    },
+    {
+      "trip": 868,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 424,
+      "remaining": 132
+    },
+    {
+      "trip": 869,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 425,
+      "remaining": 131
+    },
+    {
+      "trip": 870,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 426,
+      "remaining": 130
+    },
+    {
+      "trip": 871,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 427,
+      "remaining": 129
+    },
+    {
+      "trip": 872,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 428,
+      "remaining": 128
+    },
+    {
+      "trip": 873,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 429,
+      "remaining": 127
+    },
+    {
+      "trip": 874,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 430,
+      "remaining": 126
+    },
+    {
+      "trip": 875,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 431,
+      "remaining": 125
+    },
+    {
+      "trip": 876,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 432,
+      "remaining": 124
+    },
+    {
+      "trip": 877,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 433,
+      "remaining": 123
+    },
+    {
+      "trip": 878,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 434,
+      "remaining": 122
+    },
+    {
+      "trip": 879,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 435,
+      "remaining": 121
+    },
+    {
+      "trip": 880,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 436,
+      "remaining": 120
+    },
+    {
+      "trip": 881,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 437,
+      "remaining": 119
+    },
+    {
+      "trip": 882,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 438,
+      "remaining": 118
+    },
+    {
+      "trip": 883,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 439,
+      "remaining": 117
+    },
+    {
+      "trip": 884,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 440,
+      "remaining": 116
+    },
+    {
+      "trip": 885,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 441,
+      "remaining": 115
+    },
+    {
+      "trip": 886,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 442,
+      "remaining": 114
+    },
+    {
+      "trip": 887,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 443,
+      "remaining": 113
+    },
+    {
+      "trip": 888,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 444,
+      "remaining": 112
+    },
+    {
+      "trip": 889,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 445,
+      "remaining": 111
+    },
+    {
+      "trip": 890,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 446,
+      "remaining": 110
+    },
+    {
+      "trip": 891,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 447,
+      "remaining": 109
+    },
+    {
+      "trip": 892,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 448,
+      "remaining": 108
+    },
+    {
+      "trip": 893,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 449,
+      "remaining": 107
+    },
+    {
+      "trip": 894,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 450,
+      "remaining": 106
+    },
+    {
+      "trip": 895,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 451,
+      "remaining": 105
+    },
+    {
+      "trip": 896,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 452,
+      "remaining": 104
+    },
+    {
+      "trip": 897,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 453,
+      "remaining": 103
+    },
+    {
+      "trip": 898,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 454,
+      "remaining": 102
+    },
+    {
+      "trip": 899,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 455,
+      "remaining": 101
+    },
+    {
+      "trip": 900,
+      "survived": 0,
+      "total_saved": 444,
+      "total_lost": 456,
+      "remaining": 100
+    },
+    {
+      "trip": 901,
+      "survived": 1,
+      "total_saved": 445,
+      "total_lost": 456,
+      "remaining": 99
+    },
+    {
+      "trip": 902,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 457,
+      "remaining": 98
+    },
+    {
+      "trip": 903,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 458,
+      "remaining": 97
+    },
+    {
+      "trip": 904,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 459,
+      "remaining": 96
+    },
+    {
+      "trip": 905,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 460,
+      "remaining": 95
+    },
+    {
+      "trip": 906,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 461,
+      "remaining": 94
+    },
+    {
+      "trip": 907,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 462,
+      "remaining": 93
+    },
+    {
+      "trip": 908,
+      "survived": 0,
+      "total_saved": 445,
+      "total_lost": 463,
+      "remaining": 92
+    },
+    {
+      "trip": 909,
+      "survived": 1,
+      "total_saved": 446,
+      "total_lost": 463,
+      "remaining": 91
+    },
+    {
+      "trip": 910,
+      "survived": 1,
+      "total_saved": 447,
+      "total_lost": 463,
+      "remaining": 90
+    },
+    {
+      "trip": 911,
+      "survived": 0,
+      "total_saved": 447,
+      "total_lost": 464,
+      "remaining": 89
+    },
+    {
+      "trip": 912,
+      "survived": 0,
+      "total_saved": 447,
+      "total_lost": 465,
+      "remaining": 88
+    },
+    {
+      "trip": 913,
+      "survived": 1,
+      "total_saved": 448,
+      "total_lost": 465,
+      "remaining": 87
+    },
+    {
+      "trip": 914,
+      "survived": 0,
+      "total_saved": 448,
+      "total_lost": 466,
+      "remaining": 86
+    },
+    {
+      "trip": 915,
+      "survived": 0,
+      "total_saved": 448,
+      "total_lost": 467,
+      "remaining": 85
+    },
+    {
+      "trip": 916,
+      "survived": 1,
+      "total_saved": 449,
+      "total_lost": 467,
+      "remaining": 84
+    },
+    {
+      "trip": 917,
+      "survived": 0,
+      "total_saved": 449,
+      "total_lost": 468,
+      "remaining": 83
+    },
+    {
+      "trip": 918,
+      "survived": 0,
+      "total_saved": 449,
+      "total_lost": 469,
+      "remaining": 82
+    },
+    {
+      "trip": 919,
+      "survived": 1,
+      "total_saved": 450,
+      "total_lost": 469,
+      "remaining": 81
+    },
+    {
+      "trip": 920,
+      "survived": 1,
+      "total_saved": 451,
+      "total_lost": 469,
+      "remaining": 80
+    },
+    {
+      "trip": 921,
+      "survived": 1,
+      "total_saved": 452,
+      "total_lost": 469,
+      "remaining": 79
+    },
+    {
+      "trip": 922,
+      "survived": 1,
+      "total_saved": 453,
+      "total_lost": 469,
+      "remaining": 78
+    },
+    {
+      "trip": 923,
+      "survived": 0,
+      "total_saved": 453,
+      "total_lost": 470,
+      "remaining": 77
+    },
+    {
+      "trip": 924,
+      "survived": 0,
+      "total_saved": 453,
+      "total_lost": 471,
+      "remaining": 76
+    },
+    {
+      "trip": 925,
+      "survived": 1,
+      "total_saved": 454,
+      "total_lost": 471,
+      "remaining": 75
+    },
+    {
+      "trip": 926,
+      "survived": 0,
+      "total_saved": 454,
+      "total_lost": 472,
+      "remaining": 74
+    },
+    {
+      "trip": 927,
+      "survived": 1,
+      "total_saved": 455,
+      "total_lost": 472,
+      "remaining": 73
+    },
+    {
+      "trip": 928,
+      "survived": 1,
+      "total_saved": 456,
+      "total_lost": 472,
+      "remaining": 72
+    },
+    {
+      "trip": 929,
+      "survived": 1,
+      "total_saved": 457,
+      "total_lost": 472,
+      "remaining": 71
+    },
+    {
+      "trip": 930,
+      "survived": 0,
+      "total_saved": 457,
+      "total_lost": 473,
+      "remaining": 70
+    },
+    {
+      "trip": 931,
+      "survived": 1,
+      "total_saved": 458,
+      "total_lost": 473,
+      "remaining": 69
+    },
+    {
+      "trip": 932,
+      "survived": 0,
+      "total_saved": 458,
+      "total_lost": 474,
+      "remaining": 68
+    },
+    {
+      "trip": 933,
+      "survived": 1,
+      "total_saved": 459,
+      "total_lost": 474,
+      "remaining": 67
+    },
+    {
+      "trip": 934,
+      "survived": 1,
+      "total_saved": 460,
+      "total_lost": 474,
+      "remaining": 66
+    },
+    {
+      "trip": 935,
+      "survived": 1,
+      "total_saved": 461,
+      "total_lost": 474,
+      "remaining": 65
+    },
+    {
+      "trip": 936,
+      "survived": 0,
+      "total_saved": 461,
+      "total_lost": 475,
+      "remaining": 64
+    },
+    {
+      "trip": 937,
+      "survived": 1,
+      "total_saved": 462,
+      "total_lost": 475,
+      "remaining": 63
+    },
+    {
+      "trip": 938,
+      "survived": 1,
+      "total_saved": 463,
+      "total_lost": 475,
+      "remaining": 62
+    },
+    {
+      "trip": 939,
+      "survived": 0,
+      "total_saved": 463,
+      "total_lost": 476,
+      "remaining": 61
+    },
+    {
+      "trip": 940,
+      "survived": 1,
+      "total_saved": 464,
+      "total_lost": 476,
+      "remaining": 60
+    },
+    {
+      "trip": 941,
+      "survived": 0,
+      "total_saved": 464,
+      "total_lost": 477,
+      "remaining": 59
+    },
+    {
+      "trip": 942,
+      "survived": 1,
+      "total_saved": 465,
+      "total_lost": 477,
+      "remaining": 58
+    },
+    {
+      "trip": 943,
+      "survived": 1,
+      "total_saved": 466,
+      "total_lost": 477,
+      "remaining": 57
+    },
+    {
+      "trip": 944,
+      "survived": 1,
+      "total_saved": 467,
+      "total_lost": 477,
+      "remaining": 56
+    },
+    {
+      "trip": 945,
+      "survived": 1,
+      "total_saved": 468,
+      "total_lost": 477,
+      "remaining": 55
+    },
+    {
+      "trip": 946,
+      "survived": 1,
+      "total_saved": 469,
+      "total_lost": 477,
+      "remaining": 54
+    },
+    {
+      "trip": 947,
+      "survived": 1,
+      "total_saved": 470,
+      "total_lost": 477,
+      "remaining": 53
+    },
+    {
+      "trip": 948,
+      "survived": 0,
+      "total_saved": 470,
+      "total_lost": 478,
+      "remaining": 52
+    },
+    {
+      "trip": 949,
+      "survived": 1,
+      "total_saved": 471,
+      "total_lost": 478,
+      "remaining": 51
+    },
+    {
+      "trip": 950,
+      "survived": 1,
+      "total_saved": 472,
+      "total_lost": 478,
+      "remaining": 50
+    },
+    {
+      "trip": 951,
+      "survived": 1,
+      "total_saved": 473,
+      "total_lost": 478,
+      "remaining": 49
+    },
+    {
+      "trip": 952,
+      "survived": 1,
+      "total_saved": 474,
+      "total_lost": 478,
+      "remaining": 48
+    },
+    {
+      "trip": 953,
+      "survived": 1,
+      "total_saved": 475,
+      "total_lost": 478,
+      "remaining": 47
+    },
+    {
+      "trip": 954,
+      "survived": 0,
+      "total_saved": 475,
+      "total_lost": 479,
+      "remaining": 46
+    },
+    {
+      "trip": 955,
+      "survived": 1,
+      "total_saved": 476,
+      "total_lost": 479,
+      "remaining": 45
+    },
+    {
+      "trip": 956,
+      "survived": 1,
+      "total_saved": 477,
+      "total_lost": 479,
+      "remaining": 44
+    },
+    {
+      "trip": 957,
+      "survived": 0,
+      "total_saved": 477,
+      "total_lost": 480,
+      "remaining": 43
+    },
+    {
+      "trip": 958,
+      "survived": 1,
+      "total_saved": 478,
+      "total_lost": 480,
+      "remaining": 42
+    },
+    {
+      "trip": 959,
+      "survived": 1,
+      "total_saved": 479,
+      "total_lost": 480,
+      "remaining": 41
+    },
+    {
+      "trip": 960,
+      "survived": 1,
+      "total_saved": 480,
+      "total_lost": 480,
+      "remaining": 40
+    },
+    {
+      "trip": 961,
+      "survived": 1,
+      "total_saved": 481,
+      "total_lost": 480,
+      "remaining": 39
+    },
+    {
+      "trip": 962,
+      "survived": 1,
+      "total_saved": 482,
+      "total_lost": 480,
+      "remaining": 38
+    },
+    {
+      "trip": 963,
+      "survived": 1,
+      "total_saved": 483,
+      "total_lost": 480,
+      "remaining": 37
+    },
+    {
+      "trip": 964,
+      "survived": 0,
+      "total_saved": 483,
+      "total_lost": 481,
+      "remaining": 36
+    },
+    {
+      "trip": 965,
+      "survived": 1,
+      "total_saved": 484,
+      "total_lost": 481,
+      "remaining": 35
+    },
+    {
+      "trip": 966,
+      "survived": 1,
+      "total_saved": 485,
+      "total_lost": 481,
+      "remaining": 34
+    },
+    {
+      "trip": 967,
+      "survived": 1,
+      "total_saved": 486,
+      "total_lost": 481,
+      "remaining": 33
+    },
+    {
+      "trip": 968,
+      "survived": 1,
+      "total_saved": 487,
+      "total_lost": 481,
+      "remaining": 32
+    },
+    {
+      "trip": 969,
+      "survived": 1,
+      "total_saved": 488,
+      "total_lost": 481,
+      "remaining": 31
+    },
+    {
+      "trip": 970,
+      "survived": 1,
+      "total_saved": 489,
+      "total_lost": 481,
+      "remaining": 30
+    },
+    {
+      "trip": 971,
+      "survived": 1,
+      "total_saved": 490,
+      "total_lost": 481,
+      "remaining": 29
+    },
+    {
+      "trip": 972,
+      "survived": 1,
+      "total_saved": 491,
+      "total_lost": 481,
+      "remaining": 28
+    },
+    {
+      "trip": 973,
+      "survived": 1,
+      "total_saved": 492,
+      "total_lost": 481,
+      "remaining": 27
+    },
+    {
+      "trip": 974,
+      "survived": 1,
+      "total_saved": 493,
+      "total_lost": 481,
+      "remaining": 26
+    },
+    {
+      "trip": 975,
+      "survived": 1,
+      "total_saved": 494,
+      "total_lost": 481,
+      "remaining": 25
+    },
+    {
+      "trip": 976,
+      "survived": 1,
+      "total_saved": 495,
+      "total_lost": 481,
+      "remaining": 24
+    },
+    {
+      "trip": 977,
+      "survived": 1,
+      "total_saved": 496,
+      "total_lost": 481,
+      "remaining": 23
+    },
+    {
+      "trip": 978,
+      "survived": 1,
+      "total_saved": 497,
+      "total_lost": 481,
+      "remaining": 22
+    },
+    {
+      "trip": 979,
+      "survived": 1,
+      "total_saved": 498,
+      "total_lost": 481,
+      "remaining": 21
+    },
+    {
+      "trip": 980,
+      "survived": 1,
+      "total_saved": 499,
+      "total_lost": 481,
+      "remaining": 20
+    },
+    {
+      "trip": 981,
+      "survived": 1,
+      "total_saved": 500,
+      "total_lost": 481,
+      "remaining": 19
+    },
+    {
+      "trip": 982,
+      "survived": 1,
+      "total_saved": 501,
+      "total_lost": 481,
+      "remaining": 18
+    },
+    {
+      "trip": 983,
+      "survived": 1,
+      "total_saved": 502,
+      "total_lost": 481,
+      "remaining": 17
+    },
+    {
+      "trip": 984,
+      "survived": 1,
+      "total_saved": 503,
+      "total_lost": 481,
+      "remaining": 16
+    },
+    {
+      "trip": 985,
+      "survived": 1,
+      "total_saved": 504,
+      "total_lost": 481,
+      "remaining": 15
+    },
+    {
+      "trip": 986,
+      "survived": 1,
+      "total_saved": 505,
+      "total_lost": 481,
+      "remaining": 14
+    },
+    {
+      "trip": 987,
+      "survived": 1,
+      "total_saved": 506,
+      "total_lost": 481,
+      "remaining": 13
+    },
+    {
+      "trip": 988,
+      "survived": 1,
+      "total_saved": 507,
+      "total_lost": 481,
+      "remaining": 12
+    },
+    {
+      "trip": 989,
+      "survived": 1,
+      "total_saved": 508,
+      "total_lost": 481,
+      "remaining": 11
+    },
+    {
+      "trip": 990,
+      "survived": 1,
+      "total_saved": 509,
+      "total_lost": 481,
+      "remaining": 10
+    },
+    {
+      "trip": 991,
+      "survived": 1,
+      "total_saved": 510,
+      "total_lost": 481,
+      "remaining": 9
+    },
+    {
+      "trip": 992,
+      "survived": 1,
+      "total_saved": 511,
+      "total_lost": 481,
+      "remaining": 8
+    },
+    {
+      "trip": 993,
+      "survived": 1,
+      "total_saved": 512,
+      "total_lost": 481,
+      "remaining": 7
+    },
+    {
+      "trip": 994,
+      "survived": 1,
+      "total_saved": 513,
+      "total_lost": 481,
+      "remaining": 6
+    },
+    {
+      "trip": 995,
+      "survived": 1,
+      "total_saved": 514,
+      "total_lost": 481,
+      "remaining": 5
+    },
+    {
+      "trip": 996,
+      "survived": 1,
+      "total_saved": 515,
+      "total_lost": 481,
+      "remaining": 4
+    },
+    {
+      "trip": 997,
+      "survived": 0,
+      "total_saved": 515,
+      "total_lost": 482,
+      "remaining": 3
+    },
+    {
+      "trip": 998,
+      "survived": 1,
+      "total_saved": 516,
+      "total_lost": 482,
+      "remaining": 2
+    },
+    {
+      "trip": 999,
+      "survived": 1,
+      "total_saved": 517,
+      "total_lost": 482,
+      "remaining": 1
+    },
+    {
+      "trip": 1000,
+      "survived": 1,
+      "total_saved": 518,
+      "total_lost": 482,
+      "remaining": 0
+    }
+  ]
+}
