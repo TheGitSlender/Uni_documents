@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Trend Learning Script - Learn the cyclic patterns of each planet
-Runs multiple episodes to map out the success rate patterns
+Trend Learning Script - Modified for Purge Planet
+Sends 1 Morty per trip for better granularity on long-cycle planets
 """
 
 import requests
@@ -64,11 +64,20 @@ class TrendLearner:
         
         return loaded_data
         
-    def study_single_planet(self, planet_id, trips=333, verbose=True):
-        """Study a single planet for one complete episode"""
+    def study_single_planet(self, planet_id, trips=333, morty_count=1, verbose=True):
+        """
+        Study a single planet for one complete episode
+        
+        Args:
+            planet_id: 0, 1, or 2
+            trips: Number of trips to make
+            morty_count: Number of Morties to send per trip (1 for fine-grained data, 3 for speed)
+            verbose: Print progress
+        """
         if verbose:
             print(f"\n{'='*50}")
             print(f"Studying {self.planet_names[planet_id]} - {trips} trips")
+            print(f"Sending {morty_count} Morty/Morties per trip")
         
         # Start new episode
         resp = requests.post(f"{self.base_url}/api/mortys/start/", headers=self.headers)
@@ -79,19 +88,23 @@ class TrendLearner:
         results = []
         trip_count = 0
         
-        # Send 1 Morty at a time to map the pattern
+        # Send Morties to map the pattern
         for i in range(trips):
             try:
                 resp = requests.post(
                     f"{self.base_url}/api/mortys/portal/",
                     headers=self.headers,
-                    json={"planet": planet_id, "morty_count": 1},
+                    json={"planet": planet_id, "morty_count": morty_count},
                 )
                 
                 if resp.status_code == 200:
                     data = resp.json()
                     survived = 1 if data.get("survived", False) else 0
-                    results.append(survived)
+                    
+                    # Record result for each Morty sent
+                    for _ in range(morty_count):
+                        results.append(survived)
+                    
                     trip_count += 1
                     
                     if verbose and trip_count % 50 == 0:
@@ -115,11 +128,18 @@ class TrendLearner:
         
         return results
     
-    def learn_planet_trends(self, planet_id, num_runs=10):
-        """Learn the trend pattern for a specific planet over multiple runs"""
+    def learn_planet_trends(self, planet_id, num_runs=10, morty_count=1):
+        """
+        Learn the trend pattern for a specific planet over multiple runs
+        
+        Args:
+            planet_id: 0, 1, or 2
+            num_runs: Number of episodes to run
+            morty_count: Morties per trip (1 for Purge, 3 for others)
+        """
         print(f"\n{'='*60}")
         print(f"LEARNING TREND FOR {self.planet_names[planet_id].upper()}")
-        print(f"Running {num_runs} episodes...")
+        print(f"Running {num_runs} episodes with {morty_count} Morty/Morties per trip...")
         print(f"{'='*60}")
         
         # Create directory for saving runs
@@ -131,9 +151,15 @@ class TrendLearner:
         
         all_runs = []
         
+        # Calculate trips needed based on Morty count
+        # For 1000 Morties total:
+        # - morty_count=1: need 1000 trips
+        # - morty_count=3: need 333 trips
+        trips_per_run = 1000 // morty_count if morty_count > 0 else 333
+        
         for run in range(num_runs):
             print(f"\nRun {run + 1}/{num_runs}:")
-            results = self.study_single_planet(planet_id, trips=333, verbose=True)
+            results = self.study_single_planet(planet_id, trips=trips_per_run, morty_count=morty_count, verbose=True)
             
             if results and len(results) > 50:  # Minimum viable data
                 all_runs.append(results)
@@ -148,7 +174,8 @@ class TrendLearner:
                     'timestamp': datetime.now().isoformat(),
                     'results': results,
                     'success_rate': success_rate,
-                    'total_trips': len(results)
+                    'total_trips': len(results),
+                    'morty_count_per_trip': morty_count
                 }
                 
                 # Save as JSON
@@ -160,7 +187,7 @@ class TrendLearner:
             else:
                 print(f"  Run failed or insufficient data")
             
-            # Delay between runs
+            # Small delay between runs
         
         if not all_runs:
             print("No successful runs!")
@@ -352,6 +379,8 @@ class TrendLearner:
         ax = axes[1, 1]
         ax.axis('off')
         
+        cycle_text = f"Cycle found: {trend_data['cycle_length']} trips" if trend_data['cycle_length'] else 'No clear cycle detected'
+        
         stats_text = f"""
         Trend Statistics for {planet_name}:
         
@@ -364,7 +393,7 @@ class TrendLearner:
           Average: {np.mean(smooth):.1%}
         
         Cycle Detection:
-          {'Cycle found: ' + str(cycle_len) + ' trips' if trend_data['cycle_length'] else 'No clear cycle detected'}
+          {cycle_text}
         
         Predictability Score: {self.calculate_predictability(trend_data):.1%}
         """
@@ -423,6 +452,7 @@ class TrendLearner:
 def main():
     print("="*60)
     print("PLANET TREND LEARNING SYSTEM")
+    print("Optimized for Purge (Planet 2) - Sends 1 Morty per trip")
     print("="*60)
     
     # Get token
@@ -430,65 +460,37 @@ def main():
     
     learner = TrendLearner(token)
     
-    # Check for previous runs
-    print("\n📂 Load previous runs? (y/n, default: y)")
-    load_previous = input("> ").strip().lower() != 'n'
+    # Focus on Purge planet only
+    print("\n🎯 Collecting data for PURGE PLANET (Planet 2)")
+    print("This will send 1 Morty per trip for better granularity")
     
-    all_trends = {}
-    previous_data = {0: [], 1: [], 2: []}
-    
-    if load_previous:
-        print("\n📁 Loading previous runs...")
-        previous_data = learner.load_previous_runs()
-    
-    print("\n📊 How many NEW runs per planet? (default: 10, enter 0 to only analyze existing)")
-    runs = input("New runs per planet: ").strip()
+    print("\n📊 How many runs? (default: 10)")
+    runs = input("> ").strip()
     runs_per_planet = int(runs) if runs else 10
     
-    # Learn trends for each planet
-    for planet_id in range(2):
-        all_runs = previous_data[planet_id].copy()  # Start with previous runs
-        
-        if runs_per_planet > 0:
-            # Collect new runs
-            trend_data = learner.learn_planet_trends(planet_id, runs_per_planet)
-            
-            if trend_data:
-                # Combine with previous runs
-                all_runs.extend(trend_data['raw_runs'])
-        
-        # Analyze combined data if we have any runs
-        if all_runs:
-            print(f"\n📊 Analyzing {len(all_runs)} total runs for {learner.planet_names[planet_id]}")
-            combined_trend = learner.analyze_trends(all_runs, planet_id)
-            
-            if combined_trend:
-                all_trends[planet_id] = combined_trend
-                learner.visualize_trends(combined_trend)
-        else:
-            print(f"\n⚠️ No data available for {learner.planet_names[planet_id]}")
+    # Learn trends for Purge with 1 Morty per trip
+    planet_id = 2  # Purge
+    trend_data = learner.learn_planet_trends(planet_id, runs_per_planet, morty_count=1)
     
-    # Save all trends
-    if all_trends:
-        # Save with timestamp
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = f'planet_trends_{timestamp}.pkl'
-        learner.save_trends(all_trends, filename)
+    if trend_data:
+        learner.visualize_trends(trend_data)
         
-        # Also save as default name for easy loading
-        learner.save_trends(all_trends, 'planet_trends.pkl')
+        # Save trend
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filename = f'purge_trend_{timestamp}.pkl'
+        learner.save_trends({planet_id: trend_data}, filename)
         
         print("\n" + "="*60)
-        print("TREND LEARNING COMPLETE")
+        print("PURGE TREND LEARNING COMPLETE")
         print("="*60)
-        
-        for planet_id, trend in all_trends.items():
-            print(f"\n{trend['planet_name']}:")
-            print(f"  Total runs analyzed: {trend['num_runs']}")
-            print(f"  Pattern length: {len(trend['avg_pattern'])}")
-            if trend['cycle_length']:
-                print(f"  Cycle length: {trend['cycle_length']} trips")
-            print(f"  Predictability: {learner.calculate_predictability(trend):.1%}")
+        print(f"\n{trend_data['planet_name']}:")
+        print(f"  Total runs analyzed: {trend_data['num_runs']}")
+        print(f"  Pattern length: {len(trend_data['avg_pattern'])}")
+        if trend_data['cycle_length']:
+            print(f"  Cycle length: {trend_data['cycle_length']} trips")
+        print(f"  Predictability: {learner.calculate_predictability(trend_data):.1%}")
+    else:
+        print("\n❌ Failed to collect Purge trend data")
 
 if __name__ == "__main__":
     main()
