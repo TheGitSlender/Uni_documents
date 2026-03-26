@@ -1,0 +1,33 @@
+//***** GetAll
+localhost:8090/api/products
+
+//***** ADD (POST)
+localhost:8090/api/products
+{
+  "name": "PC Gamer",
+  "price": 12000
+}
+{
+  "name": "Key Board",
+  "price": 1000
+}
+select * from product
+
+//***** GetById
+localhost:8090/api/products/1
+
+//**** GetByName
+localhost:8090/api/products/search?name=PC Gamer
+
+//**** update (PUT)
+localhost:8090/api/products/1
+{
+  "name": "PC Gamer RTX",
+  "price": 15000
+}
+
+//**** Delete
+localhost:8090/api/products/1
+
+//*** cheaper than
+localhost:8090/api/products/cheaper-than?price=1000

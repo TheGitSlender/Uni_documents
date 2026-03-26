@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Liste des produits</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<h1>Liste des produits</h1>
+
+<form th:action="@{/products/filter}" method="get">
+  Filtrer par prix <  : <input type="number" name="price" step="0.01"/>
+  <button type="submit">Filtrer</button>
+</form>
+
+<a th:href="@{/products/add}">Ajouter un produit</a>
+<table border="1">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Nom</th>
+    <th>Prix</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="product : ${products}">
+    <td th:text="${product.id}">1</td>
+    <td th:text="${product.name}">Produit</td>
+    <td th:text="${product.price}">1000</td>
+    <td>
+      <a th:href="@{|/products/edit/${product.id}|}">Modifier</a> |
+      <a th:href="@{|/products/delete/${product.id}|}">Supprimer</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

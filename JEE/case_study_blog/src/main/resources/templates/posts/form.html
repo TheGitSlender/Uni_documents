@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Nouvel article</title></head>
+<body>
+<h1>Nouvel article</h1>
+<form action="/posts" method="post">
+    <label>Titre : <input type="text" name="title" /></label><br/>
+    <label>Auteur : <input type="text" name="author" /></label><br/>
+    <label>Contenu :<br/>
+        <textarea name="content" rows="6" cols="40"></textarea>
+    </label><br/>
+    <button type="submit">Enregistrer</button>
+</form>
+<a href="/posts">Annuler</a>
+</body>
+</html>
