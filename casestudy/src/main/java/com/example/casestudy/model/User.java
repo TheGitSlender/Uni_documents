@@ -11,7 +11,7 @@ import java.util.List;
 @Table(name = "users")
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString(exclude = {"posts", "profile"})
+@ToString(exclude = {"posts", "profile", "reactions"})
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,6 +36,10 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Profile profile;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<Reaction> reactions = new ArrayList<>();
 
     // Constructors
     public User(String username, String email) {
@@ -80,4 +84,7 @@ public class User {
 
     public Profile getProfile() { return profile; }
     public void setProfile(Profile profile) { this.profile = profile; }
+
+    public List<Reaction> getReactions() { return reactions; }
+    public void setReactions(List<Reaction> reactions) { this.reactions = reactions; }
 }

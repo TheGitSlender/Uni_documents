@@ -11,14 +11,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
             background: linear-gradient(135deg, #f8fff8 0%, #e8f5e8 25%, #d4f1d4 50%, #c1edc1 75%, #b8e6b8 100%);
-            background-size: 400% 400%;
-            animation: modernGradient 20s ease infinite;
             color: #2d5016; line-height: 1.6;
-        }
-        @keyframes modernGradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
         }
         .navbar {
             background: rgba(255,255,255,0.95); backdrop-filter: blur(20px);
@@ -129,6 +122,8 @@
                 <a href="/posts" class="nav-link">Posts</a>
                 <th:block th:if="${isAuthenticated}">
                     <a th:if="${isAdmin}" href="/users" class="nav-link">Users</a>
+                    <a th:if="${isAdmin}" href="/admin" class="nav-link">Admin</a>
+                    <a href="/profile" class="nav-link">Profile</a>
                     <span class="nav-user"><i class="fas fa-user-circle"></i> <span th:text="${currentUsername}"></span></span>
                     <form th:action="@{/auth/logout}" method="post" style="margin: 0;">
                         <button type="submit" class="nav-logout"><i class="fas fa-sign-out-alt"></i> Logout</button>
@@ -175,7 +170,7 @@
                 <div class="post-content">
                     <div class="post-icon"><i class="fas fa-file-alt"></i></div>
                     <div class="post-preview">
-                        <a th:href="@{/posts/{id}(id=${post.id})}" th:text="${post.content}">Post content</a>
+                        <a th:href="@{/posts/{id}(id=${post.id})}" th:text="${post.preview}">Post content</a>
                     </div>
                     <div class="post-meta">
                         <div class="meta-item">
@@ -192,7 +187,8 @@
                                 class="post-tag post-tag-btn"></button>
                     </div>
                     <div th:if="${isAuthenticated and (currentUsername == post.authorName or isAdmin)}" class="post-actions">
-                        <a th:href="@{/posts/edit/{id}(id=${post.id})}" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">
+                        <a th:if="${currentUsername == post.authorName}"
+                           th:href="@{/posts/edit/{id}(id=${post.id})}" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">
                             <i class="fas fa-edit"></i> Edit
                         </a>
                         <form th:action="@{/posts/delete/{id}(id=${post.id})}" method="post" style="margin:0;">

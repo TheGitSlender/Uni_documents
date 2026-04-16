@@ -1,7 +1,8 @@
 package com.example.casestudy.controller;
 
 import com.example.casestudy.model.Post;
-import com.example.casestudy.service.PostManager;
+import com.example.casestudy.service.PostService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,34 +11,31 @@ import java.util.List;
 @RequestMapping("/api/posts")
 public class PostRestController {
 
-    private final PostManager postManager;
-
-    public PostRestController(PostManager postManager) {
-        this.postManager = postManager;
-    }
+    @Autowired
+    private PostService postService;
 
     @GetMapping
     public List<Post> getAllPosts() {
-        return postManager.getAllPosts();
+        return postService.getAllPosts();
     }
 
     @GetMapping("/{id}")
     public Post getPostById(@PathVariable Long id) {
-        return postManager.getPostById(id);
+        return postService.getPostById(id);
     }
 
     @PostMapping
     public Post createPost(@RequestBody Post post) {
-        return postManager.addPost(post);
+        return postService.addPost(post);
     }
 
     @PutMapping("/{id}")
     public Post updatePost(@PathVariable Long id, @RequestBody Post post) {
-        return postManager.updatePost(id, post);
+        return postService.updatePost(post);
     }
 
     @DeleteMapping("/{id}")
     public void deletePost(@PathVariable Long id) {
-        postManager.deletePost(id);
+        postService.deletePost(id);
     }
 }

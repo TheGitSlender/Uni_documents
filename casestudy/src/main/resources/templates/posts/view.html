@@ -11,14 +11,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
             background: linear-gradient(135deg, #f8fff8 0%, #e8f5e8 25%, #d4f1d4 50%, #c1edc1 75%, #b8e6b8 100%);
-            background-size: 400% 400%;
-            animation: modernGradient 20s ease infinite;
             color: #2d5016; line-height: 1.6;
-        }
-        @keyframes modernGradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
         }
         .navbar {
             background: rgba(255,255,255,0.95); backdrop-filter: blur(20px);
@@ -93,6 +86,16 @@
         .comment-form h4 { color: #228b22; margin-bottom: 1rem; }
         .comment-form textarea { width: 100%; padding: 0.75rem; border: 1px solid rgba(34,139,34,0.3); border-radius: 8px; font-family: inherit; font-size: 0.95rem; resize: vertical; background: rgba(255,255,255,0.9); color: #2d5016; margin-bottom: 0.75rem; }
         .comment-form textarea:focus { outline: none; border-color: #228b22; }
+        .reactions-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 0; }
+        .reaction-btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 6px 14px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;
+            cursor: pointer; border: 1px solid rgba(34,139,34,0.25); background: rgba(34,139,34,0.07);
+            color: #2d5016; font-family: inherit; transition: all 0.2s ease;
+        }
+        .reaction-btn:hover { background: rgba(34,139,34,0.15); border-color: rgba(34,139,34,0.4); }
+        .reaction-btn.active { background: #228b22; color: white; border-color: #228b22; }
+        .reaction-count { font-size: 0.8rem; opacity: 0.85; }
         @media (max-width: 768px) {
             .container { padding: 1rem; }
             .article-content { padding: 2rem; }
@@ -110,6 +113,8 @@
                 <a href="/posts" class="nav-link">Posts</a>
                 <th:block th:if="${isAuthenticated}">
                     <a th:if="${isAdmin}" href="/users" class="nav-link">Users</a>
+                    <a th:if="${isAdmin}" href="/admin" class="nav-link">Admin</a>
+                    <a href="/profile" class="nav-link">Profile</a>
                     <span class="nav-user"><i class="fas fa-user-circle"></i> <span th:text="${currentUsername}"></span></span>
                     <form th:action="@{/auth/logout}" method="post" style="margin: 0;">
                         <button type="submit" class="nav-logout"><i class="fas fa-sign-out-alt"></i> Logout</button>
@@ -133,7 +138,13 @@
         </div>
 
         <div class="article-content">
-            <div class="content-text" th:text="${post.content}">Content here...</div>
+            <!-- Article -->
+            <div th:if="${post.content != null}" class="content-text" th:text="${post.content}">Content here...</div>
+            <!-- VideoPost -->
+            <div th:if="${post.url != null}" class="content-text">
+                <i class="fas fa-video"></i>
+                <a th:href="${post.url}" th:text="${post.url}" target="_blank" rel="noopener">Video URL</a>
+            </div>
             <div th:if="${not #sets.isEmpty(post.tags)}" class="tag-list">
                 <a th:each="tag : ${post.tags}"
                    th:href="@{/posts(tags=${tag.name})}"
@@ -142,12 +153,33 @@
             </div>
         </div>
 
+        <div th:if="${isAuthenticated}" class="reactions-bar">
+            <form th:each="rType : ${reactionTypes}"
+                  th:action="@{/posts/{id}/react(id=${post.id})}" method="post" style="margin:0;">
+                <input type="hidden" name="type" th:value="${rType.name()}">
+                <button type="submit"
+                        th:classappend="${userReaction != null and userReaction.name() == rType.name()} ? ' active' : ''"
+                        class="reaction-btn">
+                    <span th:text="${rType.name()}"></span>
+                    <span class="reaction-count" th:text="${reactionCounts[rType.name()]}">0</span>
+                </button>
+            </form>
+        </div>
+        <div th:if="${not isAuthenticated}" class="reactions-bar" style="color:#4a6741; font-size:0.9rem; padding-top:1rem;">
+            <span th:each="rType : ${reactionTypes}" style="margin-right:1rem;">
+                <span th:text="${rType.name()}"></span>
+                <span th:text="${reactionCounts[rType.name()]}" style="font-weight:600;"></span>
+            </span>
+        </div>
+
         <div class="actions">
             <a href="/posts" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
-            <th:block th:if="${isAuthenticated and (currentUsername == post.authorName or isAdmin)}">
+            <th:block th:if="${isAuthenticated and currentUsername == post.authorName}">
                 <a th:href="@{/posts/edit/{id}(id=${post.id})}" class="btn btn-primary">
                     <i class="fas fa-edit"></i> Edit
                 </a>
+            </th:block>
+            <th:block th:if="${isAuthenticated and (currentUsername == post.authorName or isAdmin)}">
                 <form th:action="@{/posts/delete/{id}(id=${post.id})}" method="post" style="margin:0;">
                     <button type="submit" class="btn btn-danger"
                             onclick="return confirm('Delete this post?')">
@@ -165,7 +197,8 @@
                     <span><i class="fas fa-user"></i> <span th:text="${comment.authorName}"></span></span>
                     <span><i class="fas fa-clock"></i> <span th:text="${#temporals.format(comment.creationDate, 'yyyy-MM-dd HH:mm')}"></span></span>
                     <div th:if="${isAuthenticated and (currentUsername == comment.authorName or isAdmin)}" class="comment-actions">
-                        <button type="button" class="comment-btn comment-btn-edit"
+                        <button th:if="${currentUsername == comment.authorName}"
+                                type="button" class="comment-btn comment-btn-edit"
                                 th:data-id="${comment.id}"
                                 onclick="toggleEdit(this.dataset.id)">Edit</button>
                         <form th:action="@{/posts/{postId}/comments/{id}/delete(postId=${post.id},id=${comment.id})}"
@@ -177,7 +210,7 @@
                 </div>
                 <div class="comment-content" th:id="'comment-text-' + ${comment.id}" th:text="${comment.content}"></div>
                 <div class="comment-edit-form" th:id="'comment-edit-' + ${comment.id}"
-                     th:if="${isAuthenticated and (currentUsername == comment.authorName or isAdmin)}">
+                     th:if="${isAuthenticated and currentUsername == comment.authorName}">
                     <form th:action="@{/posts/{postId}/comments/{id}/update(postId=${post.id},id=${comment.id})}" method="post">
                         <textarea name="content" rows="3" th:text="${comment.content}" required></textarea>
                         <div class="comment-edit-actions">

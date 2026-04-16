@@ -4,9 +4,10 @@ import com.example.casestudy.model.Comment;
 import com.example.casestudy.model.Post;
 import com.example.casestudy.model.User;
 import com.example.casestudy.service.CommentService;
-import com.example.casestudy.service.PostManager;
+import com.example.casestudy.service.PostService;
 import com.example.casestudy.service.UserService;
-import org.springframework.security.core.Authentication;
+import com.example.casestudy.util.AuthUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -16,15 +17,14 @@ import java.security.Principal;
 @Controller
 public class CommentController {
 
-    private final CommentService commentService;
-    private final PostManager postManager;
-    private final UserService userService;
+    @Autowired
+    private CommentService commentService;
 
-    public CommentController(CommentService commentService, PostManager postManager, UserService userService) {
-        this.commentService = commentService;
-        this.postManager = postManager;
-        this.userService = userService;
-    }
+    @Autowired
+    private PostService postService;
+
+    @Autowired
+    private UserService userService;
 
     @PostMapping("/posts/{postId}/comments")
     public String addComment(@PathVariable Long postId,
@@ -32,7 +32,7 @@ public class CommentController {
                              Principal principal,
                              RedirectAttributes redirectAttributes) {
         try {
-            Post post = postManager.getPostById(postId);
+            Post post = postService.getPostById(postId);
             User author = userService.getUserByUsername(principal.getName());
             commentService.addComment(new Comment(content, post, author));
             redirectAttributes.addFlashAttribute("successMessage", "Comment added!");
@@ -50,7 +50,7 @@ public class CommentController {
                                 RedirectAttributes redirectAttributes) {
         try {
             Comment comment = commentService.getCommentById(id);
-            if (!isOwnerOrAdmin(comment, principal)) {
+            if (!AuthUtils.isOwner(comment.getAuthorName(), principal)) {
                 redirectAttributes.addFlashAttribute("errorMessage", "You can only edit your own comments.");
                 return "redirect:/posts/" + postId;
             }
@@ -69,7 +69,7 @@ public class CommentController {
                                 RedirectAttributes redirectAttributes) {
         try {
             Comment comment = commentService.getCommentById(id);
-            if (!isOwnerOrAdmin(comment, principal)) {
+            if (!AuthUtils.isOwnerOrAdmin(comment.getAuthorName(), principal)) {
                 redirectAttributes.addFlashAttribute("errorMessage", "You can only delete your own comments.");
                 return "redirect:/posts/" + postId;
             }
@@ -79,13 +79,5 @@ public class CommentController {
             redirectAttributes.addFlashAttribute("errorMessage", "Error deleting comment: " + e.getMessage());
         }
         return "redirect:/posts/" + postId;
-    }
-
-    private boolean isOwnerOrAdmin(Comment comment, Principal principal) {
-        if (principal == null) return false;
-        Authentication auth = (Authentication) principal;
-        boolean isAdmin = auth.getAuthorities().stream()
-                .anyMatch(a -> a.getAuthority().equals("ROLE_ADMIN"));
-        return isAdmin || principal.getName().equals(comment.getAuthorName());
     }
 }

@@ -11,7 +11,6 @@ import java.util.List;
 @Repository
 public interface PostRepository extends JpaRepository<Post, Long> {
 
-    // Returns posts that have ALL of the given tag names (AND semantics)
     @Query("SELECT p FROM Post p WHERE " +
            "(SELECT COUNT(DISTINCT t) FROM p.tags t WHERE t.name IN :tagNames) = :tagCount")
     List<Post> findByAllTagNames(@Param("tagNames") List<String> tagNames,
